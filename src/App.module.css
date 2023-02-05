@@ -3,10 +3,9 @@
   --white:#ffffff;
   --litegrey:rgb(211, 211, 209);
 }
-/* *{
-  border: 2px solid red
-  ;
-} */
+*{
+  /* border: 2px solid red; */
+}
 
 body{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -20,16 +19,17 @@ nav {
   max-height: 10%;
   /* background-color: aqua; */
 }
-li a{
+li .link{
   text-decoration: none;
   color: var(--black);
 }
 li{
+  cursor: pointer;
   /* background-color:aqua; */
   list-style: none;
   display: inline;
   padding: 7px 14px 7px 14px;
-  margin: -3px;
+  margin: 5px;
 }
 ul{
   padding: 60px 15px 10px 15px;
@@ -39,12 +39,12 @@ ul{
   /* align-items: center; */
   /* background-color: aqua; }
 */
-li:hover>a,li:hover{
+li:hover>.link,li:hover{
   background-color:var(--black);
   border-radius: 25px;
   color: var(--white);
 }
-.content {
+.content,.content_socialmedia {
   /* background-color: aquamarine; */
   padding-top: 15%;
   height: 525px;
@@ -78,25 +78,33 @@ li:hover>a,li:hover{
 a img{
   height: 25px;
 }
+.content_socialmedia{
+  padding-top: 10%;
+}
 .socialmedias{
-  padding: 20px;
+  padding: 50px;
 }
-.socialmedias .fab{
-  padding: 15px;
+.socialmedias a{
+  font-size: 20px;
   background-color: black;
-  border-radius: 25px;
+  padding: 15px 15px 10px 15px;
+  margin: 5px;
+  border-radius: 30px 30px 30px 30px ;
   color: var(--white);
+  border: 1px solid var(--white);
 }
-.socialmedias .fab:hover{
+.socialmedias a:hover{
   background-color: var(--white);
   border: 1px solid var(--black);
   color: var(--black);
+  transition: 0.3s;
+  padding-bottom: 50px;
 }
 .tittle_socialmedia{
   text-align: center;
 }
 .conme{
-  margin-top: 100px;
+  margin-top: 80px;
   border:1px solid var(--black);
   padding: 10px 15px 10px 15px;
   outline: none;
@@ -110,7 +118,7 @@ a img{
   height: 200px;
   background-color: rgb(96, 93, 93);
 }
-.main_socialmedias .fab{
+.main_socialmedias a{
 color: var(--white);
 margin: 0px 0px 0px 15px;
 }
@@ -153,27 +161,39 @@ div.contactme{
   text-align:center;
 }
 
-.main-content{
-text-align: center;
+.contact_contents {
+  position: relative;
+  left: 10%;
+  top:50%;
+  /* text-align: center; */
 }
-input{
+.main_content input{
+  /* background: #000; */
   padding: 13px;
   margin: 5px;
   width: 80%;
 }
-/* .halfinput{
+.halfinput{
   width: 47%;
 }
 .fullinput{
   width:98%;
-} */
+}
 .largebox{
-  height: 200px;
+  padding: 13px;
+  margin: 10px;
+  height:200px;
+  max-height: 350px;
+  min-width: 50%;
+  max-width: 80%;
 }
 .contact_contents{
   height:700px;
 }
-.send-button{
+.main_content label{
+  text-align: end;
+}
+.send_button{
   padding: 10px 20px 10px 20px;
   border-radius: 0;
 }
