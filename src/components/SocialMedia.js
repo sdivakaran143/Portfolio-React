@@ -1,7 +1,7 @@
 import styles from '../App.module.css';
 import React from 'react';
 import {BsFacebook,BsTwitter,BsGithub,BsInstagram,BsYoutube} from "react-icons/bs";
-
+import { Link } from 'react-router-dom';
 export default function socialmedias(){
         return(
             <div className={styles.content_socialmedia}>
@@ -15,7 +15,7 @@ export default function socialmedias(){
                     <a title="GitHub" href="https://github.com/sdivakaran143"><BsGithub/></a>
                     <a title="Youtube" href="https://www.youtube.com/@saralstudio4449"><BsYoutube/></a>                   
                 </div>
-                <button className={styles.conme}>Contact Me</button>
+                <Link to="/ContactMe"><button className={styles.conme}>Contact Me</button></Link>
             </div>
         </div>
         );

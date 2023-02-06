@@ -3,21 +3,29 @@
   --white:#ffffff;
   --litegrey:rgb(211, 211, 209);
 }
+[data-theme="Dark"]{
+    --black: rgb(255, 255, 255) ;
+    --white:#000000;
+    --litegrey:rgb(211, 211, 209);
+    transition: 1s;
+}
 *{
-  /* border: 2px solid red; */
+  /* border: 0.5px solid red; */
+  /* background-color:var(--white); */
+  padding: 0;
+  margin: 0;
 }
 
-body{
+.App{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-padding: 0;
-margin: 1px;
-background: var(--white);
+background-color: var(--white);
 color: var(--black);
 }
 nav {
   /* border: 1px solid black; */
   max-height: 10%;
   /* background-color: aqua; */
+  /* box-shadow: 1px 4px 6px black; */
 }
 li .link{
   text-decoration: none;
@@ -86,7 +94,7 @@ a img{
 }
 .socialmedias a{
   font-size: 20px;
-  background-color: black;
+  background-color: var(--black);
   padding: 15px 15px 10px 15px;
   margin: 5px;
   border-radius: 30px 30px 30px 30px ;
@@ -100,6 +108,7 @@ a img{
   transition: 0.3s;
   padding-bottom: 50px;
 }
+
 .tittle_socialmedia{
   text-align: center;
 }
@@ -109,13 +118,15 @@ a img{
   padding: 10px 15px 10px 15px;
   outline: none;
   background-color: var(--white);
+  color: var(--black);
 }
 .conme:hover{
   background-color: var(--black);
-  color: aliceblue;
+  color: var(--white);
 }
 .footer{
   height: 200px;
+  width: 100%;
   background-color: rgb(96, 93, 93);
 }
 .main_socialmedias a{
@@ -126,11 +137,11 @@ margin: 0px 0px 0px 15px;
   padding: 7px 15px 7px 15px;
   background-color: rgb(96, 93, 93);
   color: var(--white);
-  border: 1px solid white;
+  border: 1px solid var(--white);
 }
 .mainpagebtn:hover{
   background-color:rgb(53, 52, 52);
-  border:1px solid white;
+  border:1px solid var(--white);
 }
 div.main_socialmedias{
   background-color: transparent;
@@ -163,9 +174,8 @@ div.contactme{
 
 .contact_contents {
   position: relative;
-  left: 10%;
-  top:50%;
-  /* text-align: center; */
+  top: 50px;
+  text-align: center;
 }
 .main_content input{
   /* background: #000; */
@@ -173,15 +183,16 @@ div.contactme{
   margin: 5px;
   width: 80%;
 }
+
 .halfinput{
-  width: 47%;
+  max-width: 38.5%;
 }
 .fullinput{
   width:98%;
 }
 .largebox{
   padding: 13px;
-  margin: 10px;
+  margin: 5px;
   height:200px;
   max-height: 350px;
   min-width: 50%;
