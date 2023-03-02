@@ -12,7 +12,7 @@
     transition: 1s;
 }
 *{
-  /* border: 0.5px solid red; */
+  /* border: 0.5px solid/ red; */
   /* background-color:var(--white); */
   padding: 0;
   margin: 0;
@@ -55,8 +55,11 @@ li{
   padding: 7px 14px 7px 14px;
   margin: 5px;
 }
+.navmain{
+  padding: 50px 0px 25px 0px;
+}
 ul{
-  padding: 60px 15px 10px 15px;
+  padding: 20px 0px 20px 0px;
   text-align: center;
 }
 /* nav>div{
@@ -75,8 +78,11 @@ li:hover{
   /* background-color: rgba(255, 255, 255, 0.385); */
   /* padding-top: 15%; */
   height: 550px;
-  margin: 30px;
+  /* margin: 30px; */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.186);
+}
+.contentcont{
+  word-wrap: break-word;
 }
 .content_socialmedia{
   height: 500px;
@@ -277,6 +283,29 @@ div.contactme{
 h3 {
   text-align:center;
   border-bottom: 1px solid var(--black);
+}
+.navbar{
+  position: sticky;
+  top: -50px;
+  transition: 0.5s;
+  /* background: #000; */
+}
+.addcolor{
+  transition: 0.5s;
+background:linear-gradient(to right top ,white, whitesmoke);  border-radius: 10px;
+/* color: #dfdfdf; */
+  /* margin: 2px; */
+  /* background-color: rgb(255, 44, 44); */
+}
+.addcolor .link{
+  /* background-color: aqua; */
+  color:black;
+}
+nav{
+  z-index: 5;
+}
+.CompleteContent{
+  z-index: 0;
 }
 
 /*

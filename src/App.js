@@ -19,9 +19,9 @@ function App() {
             <div className={styles.CompleteContent}>
                 <Routes>
                     <Route path='/' element={<Maincontent/>}/>
-                    <Route path='/Home' element={<Maincontent/>}/>
+                    {/* <Route path='/Home' element={<Maincontent/>}/>
                     <Route path='/ContactMe' element={<Contactme/>}/>
-                    <Route path='/SocialMedia' element={<SocialMedias/>}/>
+                    <Route path='/SocialMedia' element={<SocialMedias/>}/> */}
                 </Routes>
             </div>
             <footer>
