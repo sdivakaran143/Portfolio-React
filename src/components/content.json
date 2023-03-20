@@ -1,0 +1,11 @@
+{
+    "intro":"Hello, my name is Divakaran Senthilkumar, and I am a student. I believe that education is the key to unlocking our potential and achieving our dreams. I am passionate about learning and acquiring knowledge, both inside and outside the classroom. I am currently pursuing my academic goals in Computer science and Engineering, and I am committed to working hard, pushing myself out of my comfort zone, and achieving my goals. I believe that through education, I can make a positive impact in the world and contribute to the betterment of society. I am excited to be part of a community of learners and to collaborate with my peers and professors to achieve academic excellence and personal growth. I am determined to make the most of my academic journey and use my knowledge and skills to create positive change in the world.",
+    "academic":{
+        "sslc":"Government higher secondary school , palapatti, Namakkal(DT),TamilNadu",
+        "hsc":"Kandaswamy Kandar Matriculation and higher secondary school,Paramathi-velur,Namakkal,Tamilnadu",
+        "college":"K.S.R. College of Engineering,Tiruchengode,Namakkal,TamilNadu",
+        "sslcpercentage":"65.4",
+        "hscpercentage":"61.16",
+        "collegepercentage":"7.98 upto 5th Semester"
+    }
+}

@@ -1,18 +1,21 @@
 :root{
-  --black: rgb(0, 0, 0) ;
+  --black: #171c28 ;
   --white:#ffffff;
   --litegrey:rgb(211, 211, 209);
   --navbutton:rgba(0, 0, 0, 0.299);
+  --grey:grey;
+  --lowblack:rgba(0, 0, 0, 0.291);
 }
 [data-theme="Dark"]{
     --black: rgb(255, 255, 255) ;
-    --white:#000000;
+    --white:#171c28;
     --litegrey:rgb(211, 211, 209);
     --navbutton:#dfdfdf;
+    --lowblack:rgba(255, 255, 255, 0.291);
     transition: 1s;
 }
 *{
-  /* border: 0.5px solid/ red; */
+  /* border: 0.5px solid red; */
   /* background-color:var(--white); */
   padding: 0;
   margin: 0;
@@ -93,7 +96,7 @@ li:hover{
   top: 55%;
   left: 15%;
   width: 30%;
-  height: 20%;
+  height: 40%;
   padding: 15px;
   text-align: center;
   /* background:linear-gradient(to left right rgba(162, 160, 158, 0.181) ); */
@@ -176,7 +179,7 @@ a img{
   color: var(--white);
 }
 .footer{
-  height: 200px;
+  height:80px;
   width: 100%;
   background-color: rgb(96, 93, 93);
 }
@@ -281,8 +284,12 @@ div.contactme{
 }
 
 h3 {
+  /* background: #000; */
+  /* color: white; */
   text-align:center;
-  border-bottom: 1px solid var(--black);
+  padding-bottom: 5px;
+  font-variant: small-caps;
+  /* border-bottom: 1px solid var(--black); */
 }
 .navbar{
   position: sticky;
@@ -291,21 +298,198 @@ h3 {
   /* background: #000; */
 }
 .addcolor{
-  transition: 0.5s;
-background:linear-gradient(to right top ,white, whitesmoke);  border-radius: 10px;
-/* color: #dfdfdf; */
+  /* filter:blur(30px); */
+  /* background:linear-gradient(to right top ,var(--white), var(--white));  border-radius: 10px; */
+  background: var(--white);
+/* box-shadow: #1e1e1eac 2px 0px 10px; */
+  /* color: #dfdfdf; */
   /* margin: 2px; */
   /* background-color: rgb(255, 44, 44); */
 }
-.addcolor .link{
-  /* background-color: aqua; */
+/* .addcolor .link{
+  background-color: aqua;
   color:black;
-}
+} */
 nav{
   z-index: 5;
 }
 .CompleteContent{
   z-index: 0;
+}
+.getintouch{
+  background:var(--litegrey);
+  /* position:relative; */
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  padding: 10px 15px 10px 15px;
+  box-shadow: 0px 0px 2px var(--navbutton) ;
+}
+.getintouch:hover{
+  border-radius: 0%;
+}
+.getintouch:active{
+  transform: scale(1.05);
+}
+
+
+/* -----------------------------------subcomponent js ----------------------------------------------- */
+.academic{
+  margin: 30px 0px;
+  font-size: 13px;
+  display: grid;
+  width: 85%;
+  position: relative;
+  left:15%;
+  text-align: center;
+  grid-template-columns: repeat(2,40%);
+}
+.academicdetials{
+  word-wrap: break-word;
+  grid-column:2 ;
+  padding: 25px;
+  border-left :2.3px solid var(--black) ;
+}
+.academicdetials>p{
+  background:var(--grey);
+  color: white;
+  padding: 5px;
+  position: relative;
+  transform: translate(-27px);
+  width: 35%;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.frame{
+  /* border-right: 1px solid var(--black);
+  border-bottom: 1px solid var(--black); */
+  /* background: #acacac; */
+  padding: 10px 5px 10px 5px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px var(--lowblack);
+  
+}
+.acd2 > .frame{
+  border: none;
+  /* border-right: 1px solid var(--black);
+  border-bottom: 1px solid var(--black); */
+}
+.acd2{
+  box-shadow: 2.2px 0px 0px 0px var(--black);
+  border: none;
+  grid-column: 1;
+  left: 10px;
+}
+.acd2>p{
+  color: white;
+  transform: translate(248px);
+  /* transform: translate(2.3em); */
+  /* transform: translate(31.5em,1.5em); */
+
+}
+.acd3{
+  grid-row: 3;
+}
+.thisisblock{
+  margin-top: 3%;
+}
+
+/* -----------------------------------about js ----------------------------------------------- */
+.introduction{
+  /* border: 2px solid red; */
+  height:75vh ;
+  background: rgba(149, 233, 237, 0.702);
+  width: 96%;
+  padding: 25px;
+  text-align: center;
+  clip-path: polygon(0% 10%,100% 0%,100% 75%,0% 90%);
+  margin: 20px;
+}
+.introduction h3{
+  background: #000;
+  color:var(--white);
+  display: inline;
+  padding: 7px 12px 7px 12px;
+  border-radius: 10px;
+}
+.introductioncontent,h3{
+  line-height: 27px;
+  position: relative;
+  top: 20%;
+  left: 0%;
+  padding: 25px 0px 0px 0px;
+  /* width:50%; */
+}
+
+/* -----------------------------------gallery js ----------------------------------------------- */
+.photo1{
+  grid-area: one;
+}
+.photo2{
+  grid-area: two;
+}
+.photo3{
+  grid-area: three;
+}
+.photo4{
+  grid-area: four;
+}
+.photo5{
+  grid-area: five;
+}
+.gallery{
+  margin: 25px;
+  display: grid;
+  gap: 1rem;
+    grid-template-areas:
+    'one two three'
+    'four five five'  ;
+    padding: 2rem;
+}
+.galleryphoto{
+  height :200px;
+  background: #000;
+  border: 2px solid green;
+}
+
+/* -----------------------------------Project js ----------------------------------------------- */
+.project_cards{
+  margin: 25px;
+}
+.project_card{
+  margin: 20px;
+}
+.project_card h4{
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  padding: 10px;
+  width:fit-content;
+  color: var(--white);
+  background: #000;
+  border-radius: 20px;
+
+}
+.project_card{
+  border-radius: 20px;
+  height: 300px;
+  width: 45%;
+  background: #00000070;
+}
+/* -----------------------------------MAinCOntent ----------------------------------------------- */
+.Maincontentdetials{
+  position: absolute;
+  bottom:20%;
+  left: 8%;
+}
+.Maincontentdetials a{
+    margin: 10px;
+}
+.resumebtn{
+  border: 2px solid black;
+  background: var(--black);
+  color: var(--white);
+  padding: 5px 10px 5px 10px;
 }
 
 /*
@@ -316,4 +500,47 @@ mobile devices
     display: none;
     /* background: #000; */
   }
+  .getintouch{
+    display: none;
+  }
+  .academic{
+    display: inline;
+    position: static;
+  }
+  .academicdetials{
+    border: none;
+  }
+  .academicdetials>p{
+    transform: translate(0px);
+    border-radius: 5px;
+  }
+  .gallery{
+    display: inline;
+  }.galleryphoto{
+      margin:5px ;
+  }
+  .acd2{
+    box-shadow: none;
+  }
+  .introduction{
+    padding: 10px;
+    height:800px ;
+    background: rgba(149, 233, 237, 0.702);
+    width: 96%;
+    margin: 0;
+    text-align: center;
+    clip-path:none;
+    clip-path: polygon(0% 15%,100% 8%,100% 97%,0% 100%);
+
+  }
+  .introductioncontent,h3{
+    padding: 10px;
+    line-height: 27px;
+    display: grid;
+    place-items: center;
+    /* position: relative;
+    top: 8%; */
+  }
+
+  
 }

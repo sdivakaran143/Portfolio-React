@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Contactme from './components/Contactme';
 import SocialMedias from './components/SocialMedia';
 import {Routes,Route} from 'react-router-dom';
+import About from './components/About';
+import Projects from './components/Projects';
 function App() {
     const [theme,settheme] = useState('Light');
     function changetheme(){
@@ -19,9 +21,11 @@ function App() {
             <div className={styles.CompleteContent}>
                 <Routes>
                     <Route path='/' element={<Maincontent/>}/>
-                    {/* <Route path='/Home' element={<Maincontent/>}/>
+                    <Route path='/Home' element={<Maincontent/>}/>
                     <Route path='/ContactMe' element={<Contactme/>}/>
-                    <Route path='/SocialMedia' element={<SocialMedias/>}/> */}
+                    <Route path='/SocialMedia' element={<SocialMedias/>}/>
+                    <Route path='/About' element={<About/>}/>
+                    <Route path='/Projects' element={<Projects/>}/>
                 </Routes>
             </div>
             <footer>
