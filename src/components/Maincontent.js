@@ -2,6 +2,7 @@ import styles from '../App.module.css';
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import  'aos/dist/aos.css'
+import {Link} from 'react-router-dom';
 import Divakaran from 'F:/Portfolio_Mine/profile/src/photo.png';
 // import {Academics as Academics} from './Subcomponents';
 import Galleryview from './galareyview';
@@ -19,7 +20,7 @@ function Maincontent(){
                 {/* <span>Mern stack developer</span> */}
                 <div className={styles.Maincontentdetials}>
                     <a className={styles.resumebtn} href="https://sdivakaran143.github.io/Virtual-Resume/">View Resume</a>
-                    <a sty>View Detials →</a>
+                    <Link to="/About" >View Detials ➟</Link>
                     </div>
             </div>
                 <img className={styles.image} src={Divakaran}/>

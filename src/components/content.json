@@ -7,5 +7,47 @@
         "sslcpercentage":"65.4",
         "hscpercentage":"61.16",
         "collegepercentage":"7.98 upto 5th Semester"
-    }
+    },
+    "certificates":["Certified in Python programming for beginners through Tech Learn online course",
+        "Attended Tech Learn seminars on Python and APIs, enhancing knowledge in programming and web development.",
+        "Attended Tech Learn seminars on Python and APIs, enhancing knowledge in programming and web development.",
+        "Completed \"The Complete ReactJs Course - Basics to Advanced [2023]\" on Udemy, gaining expertise in ReactJs development."
+        ],
+    "projectsContent":[
+        {
+            "id":1,
+            "image": "images/ecom.png",
+            "title":"Ecommerce product comparison",
+            "description":"Developed an Ecommerce product comparison application using JavaScript libraries to compare products from Amazon and Flipkart, demonstrating proficiency in web development and data analysis.",
+            "tech":"ReactJs , NodeJs ,ExpressJs"
+        },{
+            "id":2,
+            "image":"https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters:format(jpg)/https://blogs-images.forbes.com/bernardmarr/files/2019/05/Artificial-Intelligence-Can-Now-Copy-Your-Voice-What-Does-That-Mean-For-Humans-1200x675.jpeg",
+            "title":"Personal voice assistant API",
+            "description":"Developed a Personal Voice Assistant API capable of performing operations such as Google search and custom commands",
+            "tech":"Python"
+        },
+        {
+            "id":3,
+            "image":"images/celciusapp.jpg",
+            "title":"Celsius Converter Application",
+            "description":"Developed a Celsius Converter Android application using Android Studio and dependencies, enabling conversion of Celsius to Fahrenheit, Rankine, and Kelvin.",
+            "tech":"Android studio and java"
+        },
+        {
+            "id":4,
+            "image":"images/productpreiwew.png",
+            "title":"product preview page",
+            "description":"Designed and developed a product preview page using React, showcasing skills in front-end development and UI/UX design.",
+            "tech":"ReactJs"
+        },
+        {
+            "id":5,
+            "image":"images/virtual-resume.png",
+            "title":"Virtual resume",
+            "description":"Developed a virtual portfolio using HTML, CSS, and JavaScript to showcase my design and development skills.Implemented responsive design techniques to ensure optimal user experience across various devices.",
+            "tech":"HTML,CSS"
+        }
+        
+    ]
 }
