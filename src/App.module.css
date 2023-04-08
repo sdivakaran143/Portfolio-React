@@ -456,29 +456,73 @@ nav{
 /* -----------------------------------Project js ----------------------------------------------- */
 
 .project_cards{
+  /* text-align: center; */
   position: sticky;
-  top:70px;
+  top:50px;
   height: 100vh;
   width: 100%;
   background: white;
-  box-shadow:0px 0px 15px rgba(0, 0, 0, 0.348);
+  box-shadow:0px 0px 15px rgba(0, 0, 0, 0.128);
+}
+.project_cards:last-child{
+  height: 85vh;
 }
 .projectCenterContent{
-    display: grid;
-    place-items: center;
-    justify-content: space-around;
+  /* border: 1px solid red; */
 }
+.projectCenterContent:only-child{
+    text-align: center;
+}
+
 .projectCenterContent img{
+  border-radius: 7px;
   height: 40vh;
   width: 70vh;
+  margin: 6% auto 10px auto;
+}
+.hoverindication{
+  position: absolute;
+  top: 40%;
+  left: 67%;
+  font-size: smaller;
+  font-variant: small-caps;
+  transform: rotate(90deg);
+
 }
 .projectdescription{
   padding: 20px;
-/* text-align: center; */
-text-align: center;
 }
 .projectdescription p{
-  width: 60%;
+  padding: 10px;
+}
+.imgediv{
+  display: inline;
+}
+.imgediv:hover img{
+  opacity: 30%;
+}
+.linkbutton{
+  /* margin: 20px; */
+  position: absolute;
+  top: 35%;
+  left: 48%;
+  visibility: hidden;
+
+}
+.imgediv:hover .linkbutton{
+  visibility: visible;
+}
+.linkbutton button{
+  padding:18px;
+  background: #ffffffa9;
+  border-radius: 100px;
+  border: none;
+  font-size: large;
+}
+.linkbutton p{
+  padding: 10px;
+  text-shadow: 1px 1px 0px black;
+  /* background: #000; */
 }
 /* -----------------------------------MAinCOntent ----------------------------------------------- */
 .Maincontentdetials{
@@ -495,6 +539,12 @@ text-align: center;
   background: var(--black);
   color: var(--white);
   padding: 5px 10px 5px 10px;
+  border: 2px double white;
+  border-radius: 20px;
+}
+
+.captial{
+  font-variant: small-caps;
 }
 
 /*
@@ -547,6 +597,13 @@ mobile devices
     /* position: relative;
     top: 8%; */
   }
+  .projectCenterContent img{
+    width: 100%;
+  }
 
+  .linkbutton{
+    top: 25%;
+    left: 44%;
+  }
   
 }

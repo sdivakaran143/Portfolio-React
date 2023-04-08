@@ -1,20 +1,38 @@
 import styles from '../App.module.css';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import AOS from 'aos';
+import  'aos/dist/aos.css'
+import {FaLink} from "react-icons/fa";
+// import {SiMinutemailer} from "react-icons/si";
 import projectsContent from "./content.json";
-export default function Projects(){
+
+export default function Projects(){  
+    useEffect(()=>{
+        AOS.init({duration:500});
+    },[]);
     const projectcomponents=()=>{
         return(
             <div>
                 {Object.values(projectsContent.projectsContent).map(x=>{
+                    var proimg= x.image;
+                    var style={
+                        background: `linear-gradient(to right, rgba(14, 14, 14, 0.939), rgba(16, 14, 14, 0.798)),url(${proimg}) no-repeat`,
+                        backgroundSize: 'cover',
+                        color:"white"
+                      }
                 return (
-                    <div key={x.id} className={styles.project_cards}>
-                    <div className={styles.projectCenterContent}>
-                    <img src={x.image} alt="image" />
+                    <div style={style} className={styles.project_cards}>
+                    <div data-aos="fade-up" key={x.id} className={styles.projectCenterContent}>
+                    <div className={styles.imgediv}>       
+                        <img src={x.image} alt="image" />
+                        <div className={styles.hoverindication} ><p>Hover to get link</p></div>
+
+                       <div className={styles.linkbutton} ><button ><FaLink/><br/></button><p>Github</p></div>
+                    </div>
                     <div className={styles.projectdescription}>
-                        <h2>{x.title}</h2>
+                        <h1 className={styles.captial}><b>{x.title}</b></h1>
                         <p>{x.description}</p>
                         <p>Technolgy Used : {x.tech}</p>
-                        <button>Github ➟</button>
                     </div>
                     </div>
                     </div>
@@ -25,9 +43,7 @@ export default function Projects(){
     }
     return(
         <div className={styles.projects_contents}>
-            <div>
                 {projectcomponents()}
-            </div>
         </div>
     );
 }
