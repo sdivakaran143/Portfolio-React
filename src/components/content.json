@@ -36,19 +36,71 @@
             "tech":"Android studio and java"
         },
         {
-            "id":1,
+            "id":4,
             "image": "images/ecom.png",
             "title":"Ecommerce product comparison",
             "description":"Developed an Ecommerce product comparison application using JavaScript libraries to compare products from Amazon and Flipkart, demonstrating proficiency in web development and data analysis.",
             "tech":"ReactJs , NodeJs ,ExpressJs"
         },
         {
-            "id":4,
+            "id":5,
             "image":"images/productpreiwew.png",
             "title":"product preview page",
             "description":"Designed and developed a product preview page using React, showcasing skills in front-end development and UI/UX design.",
             "tech":"ReactJs"
         }
         
-    ]
+    ],
+    "skills":[
+        {
+            "id":1,
+            "skill":"C",
+            "icon":"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png"
+        },
+        {
+            "id":2,
+            "skill":"Python",
+            "icon":"https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
+        },
+        {
+            "id":3,
+            "skill":"Java",
+            "icon":"https://cdn-icons-png.flaticon.com/512/226/226777.png"
+        },
+        {
+            "id":4,
+            "skill":"HTML",
+            "icon":"https://cdn-icons-png.flaticon.com/128/1051/1051277.png"
+        },
+        {
+            "id":5,
+            "skill":"CSS",
+            "icon":"https://cdn-icons-png.flaticon.com/128/732/732190.png"
+        },
+        {
+            "id":6,
+            "skill":"JavaScript",
+            "icon":"https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+        },
+        {
+            "id":7,
+            "skill":"ExpressJs",
+            "icon":"https://buttercms.com/static/images/tech_banners/ExpressJS.8587dd0647ca.png"
+        },
+        {
+            "id":8,
+            "skill":"ReactJs",
+            "icon":"https://cdn-icons-png.flaticon.com/128/875/875209.png"
+        },
+        {
+            "id":9,
+            "skill":"NodeJs",
+            "icon":"https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png"
+        },
+        {
+            "id":10,
+            "skill":"MongoDB (At Learning)",
+            "icon":"https://th.bing.com/th/id/R.0e23481b805fa66eb9ff0c177ff27030?rik=00LN9yVT3nMAyw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2flogo-mongodb-png-mongodb-1600.png&ehk=YwJU48GqAzZ6V3Zlafc4pyilw%2biV5XBxEO7chpNV3M8%3d&risl=&pid=ImgRaw&r=0"
+        }
+         ]
 }

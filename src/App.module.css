@@ -409,8 +409,8 @@ nav{
 .introduction h3{
   background: #000;
   color:var(--white);
-  display: inline;
   padding: 7px 12px 7px 12px;
+  display: inline;
   border-radius: 10px;
 }
 .introductioncontent,h3{
@@ -420,6 +420,29 @@ nav{
   left: 0%;
   padding: 25px 0px 0px 0px;
   /* width:50%; */
+}
+
+/* -----------------------------------gabout js( certificate ) ----------------------------------------------- */
+.certificate_contents{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.certificate{
+  padding: 20px 20px 20px 20px;
+  margin: 10px;
+  height: 45vh;
+  width: 40%;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 5px;
+  /* display: flex; */
+}
+.certificateimg{
+  height: 37vh;
+  background: #000;
+  margin: 10px;
 }
 
 /* -----------------------------------gallery js ----------------------------------------------- */
@@ -466,9 +489,6 @@ nav{
 }
 .project_cards:last-child{
   height: 85vh;
-}
-.projectCenterContent{
-  /* border: 1px solid red; */
 }
 .projectCenterContent:only-child{
     text-align: center;
@@ -533,20 +553,53 @@ nav{
 .Maincontentdetials a{
     margin: 10px;
     text-decoration: none;
-}
-.resumebtn{
-  border: 2px solid black;
-  background: var(--black);
-  color: var(--white);
-  padding: 5px 10px 5px 10px;
-  border: 2px double white;
-  border-radius: 20px;
+  }
+  .resumebtn{
+    border: 2px solid black;
+    background: var(--black);
+    color: var(--white);
+    padding: 5px 10px 5px 10px;
+    border: 2px double white;
+    border-radius: 20px;
 }
 
 .captial{
   font-variant: small-caps;
 }
+/* -----------------------------------Myskills ----------------------------------------------- */
 
+.Myskill_contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* overflow: scroll; */
+    /* background: rgb(145, 224, 255); */
+    padding: 20px;
+  }
+.skillbox{
+  padding: 10px;
+  /* filter: blur(2px); */
+    height: 25vh;
+    width: 200px;
+    border: 2px solid rgba(13, 137, 143, 0.685);
+    border-radius: 12px;
+    background :rgba(255, 255, 255,0.1);
+    margin: 7px;
+  }
+
+
+.skillimage img{
+  margin: 10px auto;
+  object-fit: contain;
+  height: 100px;
+  width: 100%;
+  }
+.skillcontent{
+  text-align: center;
+  /* color: white; */
+  font-weight: bolder;
+  }
 /*
 mobile devices
 */

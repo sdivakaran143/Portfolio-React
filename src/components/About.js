@@ -6,6 +6,8 @@ import AOS from 'aos';
 import  'aos/dist/aos.css'
 import {Academics as Academics} from './Subcomponents';
 import {Introductions as Intro} from './Subcomponents';
+import Myskills from './Myskills';
+import Certificates from './Certificates';
 export default function About(){
     useEffect(()=>{
         AOS.init({duration:2000});
@@ -14,6 +16,8 @@ export default function About(){
             <div>
                 <Intro/>
                 <Academics/>
+                <Myskills/>
+                <Certificates/>
             </div>
         );
 
