@@ -8,7 +8,7 @@ function Navigationbar(props){
     useEffect(()=>{
         AOS.init({duration:1000});
     },[]);
-    const [logo,setlogo]=useState(true);
+    const [logo,setlogo]=useState(localStorage.getItem("Theme")==="Dark"?true:false);
     // console.log(props.componentUpdate(1));
     const[pos,setpos]=useState(false);
     function changelogo(){
@@ -26,11 +26,11 @@ function Navigationbar(props){
         <div className={styles.navmain}>
              <div className={(pos)?styles.addcolor:""}>
             <ul>
-                <li><Link className={styles.link} onClick="#" to="/" id="top">Home</Link></li>
+                <li><Link className={styles.link} onClick="#" to="/Home" id="top">Home</Link></li>
                 <li><Link className={styles.link} onClick="#" to="/About" >About</Link></li>
                 <li><Link className={styles.link} onClick="#" to="/Projects" >Projects</Link></li>
                 <li><Link className={styles.link} onClick="#" to="/ContactMe" >Contact</Link></li>
-                {(pos)?<li className={styles.getintouch} data-aos="fade-in"><Link className={styles.link}to="/ContactMe">Get In Touch</Link></li>:""}
+                {(pos)?<li className={styles.getintouch} data-aos="fade-in"><Link className={styles.link} onClick="#" to="/ContactMe">Get In Touch</Link></li>:""}
             </ul>
             <Link className={styles.logo} to="/SocialMedia"><MdOutlineConnectWithoutContact className={styles.logo}/></Link>
             <button className={styles.changeLogo} onClick={()=>{

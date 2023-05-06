@@ -1,5 +1,5 @@
 import styles from '../App.module.css';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 import  'aos/dist/aos.css'
 import {FaLink} from "react-icons/fa";
@@ -16,9 +16,9 @@ export default function Projects(){
                 {Object.values(projectsContent.projectsContent).map(x=>{
                     var proimg= x.image;
                     var style={
-                        background: `linear-gradient(to right, rgba(14, 14, 14, 0.939), rgba(16, 14, 14, 0.798)),url(${proimg}) no-repeat`,
+                        background: `linear-gradient(to right, rgba(14, 14, 14, 0.939), rgba(16, 14, 14, 0.998)),url(${proimg}) no-repeat`,
                         backgroundSize: 'cover',
-                        color:"white"
+                        color:"white",
                       }
                 return (
                     <div style={style} className={styles.project_cards}>
@@ -27,7 +27,7 @@ export default function Projects(){
                         <img src={x.image} alt="image" />
                         <div className={styles.hoverindication} ><p>Hover to get link</p></div>
 
-                       <div className={styles.linkbutton} ><button ><FaLink/><br/></button><p>Github</p></div>
+                       <div className={styles.linkbutton} ><button ><a href={x.link}><FaLink/></a><br/></button><p>Github</p></div>
                     </div>
                     <div className={styles.projectdescription}>
                         <h1 className={styles.captial}><b>{x.title}</b></h1>

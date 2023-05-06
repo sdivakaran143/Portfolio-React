@@ -1,5 +1,5 @@
 import styles from '../App.module.css';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import AOS from 'aos';
 import  'aos/dist/aos.css'
 import skillist from "./content.json";
@@ -17,7 +17,7 @@ export default function Myskills(){
                     return(
                         <div key={x.id} className={styles.skillbox} data-aos="fade-up"data-aos-anchor-placement="center-bottom">
                             <div className={styles.skillimage}>
-                                <img  src={x.icon}/>
+                                <img  src={x.icon} alt="icon"/>
                             </div>
                             <br/>
                             <div className={styles.skillcontent}>{x.skill}</div>
@@ -32,7 +32,7 @@ export default function Myskills(){
     }
    
     return(
-        <div>
+        <div className={styles.skill}>
             <h3>Skills</h3>
             {skilssets()}
         </div>

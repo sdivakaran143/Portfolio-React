@@ -1,6 +1,6 @@
 import detials from './content.json';
 import styles from '../App.module.css';
-import React, { useState,useEffect } from 'react';
+import React, {useEffect } from 'react';
 import AOS from 'aos';
 import  'aos/dist/aos.css';
 const Academics=()=>{
@@ -38,7 +38,7 @@ const Academics=()=>{
 }
 const Introductions =()=>{
     return(
-        <div data-aos="fade-in" className={styles.introduction}>
+        <div data-aos="fade-in" className={styles.introduction} >
         <h3>introduction my self</h3><br/>
        <p className={styles.introductioncontent}>{detials.intro}</p>
        </div>

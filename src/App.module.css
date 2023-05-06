@@ -5,13 +5,16 @@
   --navbutton:rgba(0, 0, 0, 0.299);
   --grey:grey;
   --lowblack:rgba(0, 0, 0, 0.291);
+  --text:black;
+  transition: 1s;
 }
 [data-theme="Dark"]{
-    --black: rgb(255, 255, 255) ;
-    --white:#171c28;
-    --litegrey:rgb(211, 211, 209);
-    --navbutton:#dfdfdf;
-    --lowblack:rgba(255, 255, 255, 0.291);
+  --black: rgb(255, 255, 255) ;
+  --white:#171c28;
+  --litegrey:rgb(211, 211, 209);
+  --navbutton:#dfdfdf;
+  --lowblack:rgba(255, 255, 255, 0.291);
+  --text:white;
     transition: 1s;
 }
 *{
@@ -24,44 +27,29 @@
 .App{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 background-color: var(--white);
-color: var(--black);
+color: var(--text);
 }
-.contentintro{
-  /* background: #f84141; */
-  /* float: left; */
-  height: 420px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.contentintro .image{
-  position: relative;
-  left: 25%;
-  height: 550px;
-/* background: #000; */
-}
-
 nav {
   /* border: 1px solid black; */
   max-height: 10%;
   /* background-color: aqua; */
   /* box-shadow: 1px 4px 6px black; */
 }
-li .link{
+.navmain .link{
   text-decoration: none;
   color: var(--black);
+  padding: 7px 14px 7px 14px;
 }
-li{
+.navmain li{
   cursor: pointer;
-  /* background-color:aqua; */
   list-style: none;
   display: inline;
-  padding: 7px 14px 7px 14px;
   margin: 5px;
 }
 .navmain{
   padding: 50px 0px 25px 0px;
 }
-ul{
+.navmain ul{
   padding: 20px 0px 20px 0px;
   text-align: center;
 }
@@ -69,20 +57,23 @@ ul{
   /* align-items: center; */
   /* background-color: aqua; }
 */
-li:hover>.link,li:hover{
+.navmain li:hover>.link,li:hover{
   /* background-color:var(--black); */
   border-radius: 30px;
   color: var(--black);
+  background-color: var(--white);
 }
-li:hover{
+.navmain li:last-child:hover>.link{
+  border-radius: 5px;
+  background: var(--litegrey);
+}
+.link:hover{
   box-shadow: 0px 0px 2px var(--navbutton) ;
 }
 .content {
   /* background-color: rgba(255, 255, 255, 0.385); */
-  /* padding-top: 15%; */
-  height: 550px;
-  /* margin: 30px; */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.186);
+  height: 82vh;
 }
 .contentcont{
   word-wrap: break-word;
@@ -91,23 +82,24 @@ li:hover{
   height: 500px;
 
 }
-.tittle{
-  position: relative;
-  top: 55%;
-  left: 15%;
-  width: 30%;
-  height: 40%;
-  padding: 15px;
-  text-align: center;
-  /* background:linear-gradient(to left right rgba(162, 160, 158, 0.181) ); */
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.tittle p{
+.tittle{
+  text-align: center;
+}
+
+.tittle h1{
   font-weight: bold;
-  font-size:x-large;
+  font-variant: small-caps;
+  font-size: 6vh;
 }
 .tittle span{
   font-size: smaller;
   font-variant:small-caps;
+
 }
 .logo{
   position: absolute;
@@ -317,16 +309,13 @@ nav{
   z-index: 0;
 }
 .getintouch{
-  background:var(--litegrey);
-  /* position:relative; */
   position: absolute;
   bottom: 30px;
   right: 50px;
-  padding: 10px 15px 10px 15px;
-  box-shadow: 0px 0px 2px var(--navbutton) ;
-}
-.getintouch:hover{
-  border-radius: 0%;
+  background: var(--litegrey);
+  padding: 7px 0px;
+  border-radius: 5px;
+  /* box-shadow: 0px 0px 2px var(--navbutton) ; */
 }
 .getintouch:active{
   transform: scale(1.05);
@@ -365,7 +354,7 @@ nav{
   /* border-right: 1px solid var(--black);
   border-bottom: 1px solid var(--black); */
   /* background: #acacac; */
-  padding: 10px 5px 10px 5px;
+  padding: 15px 5px 15px 5px;
   border-radius: 15px;
   box-shadow: 0px 0px 5px var(--lowblack);
   
@@ -382,7 +371,7 @@ nav{
   left: 10px;
 }
 .acd2>p{
-  color: white;
+  color: var(--white);
   transform: translate(177%);
   /* transform: translate(2.3em); */
   /* transform: translate(31.5em,1.5em); */
@@ -408,7 +397,7 @@ nav{
 }
 .introduction h3{
   background: #000;
-  color:var(--white);
+  color:white;
   padding: 7px 12px 7px 12px;
   display: inline;
   border-radius: 10px;
@@ -423,28 +412,42 @@ nav{
 }
 
 /* -----------------------------------gabout js( certificate ) ----------------------------------------------- */
-.certificate_contents{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  
+.certificatemaindiv{
 }
-.certificate{
-  padding: 20px 20px 20px 20px;
-  margin: 10px;
-  height: 45vh;
-  width: 40%;
+.certificatediv{
+  padding: 10px;
   text-align: center;
-  border: 2px solid grey;
-  border-radius: 5px;
-  /* display: flex; */
+  height: 70vh;
 }
-.certificateimg{
-  height: 37vh;
-  background: #000;
-  margin: 10px;
+.certifcateslides{
+  margin: 0px auto;
+  height: 55vh;
+  background-color: rgba(128, 128, 128, 0.185);
+  width: 80%;
+  margin-bottom: 25px;
 }
-
+.certificateimg {
+  height:40vh;
+  padding: 20px;
+}
+.certificatedescription{
+  color: var(--black);
+  width: 88%;
+  margin: 0px auto;
+}
+.navigationbtn{
+  font-size: 30px;
+  padding: 0px 15px ;
+  margin: 0px 20px ;
+  font-weight: 100;
+  box-shadow: 1px 1px 6px rgba(245, 245, 220, 0.622);
+  border-radius: 100px;
+  outline: none;
+  border: none;
+}
+.navigationbtn:hover{
+  background-color: #dfdfdfa5;
+}
 /* -----------------------------------gallery js ----------------------------------------------- */
 .photo1{
   grid-area: one;
@@ -501,13 +504,12 @@ nav{
   margin: 6% auto 10px auto;
 }
 .hoverindication{
-  position: absolute;
+  /* position: absolute;
   top: 40%;
-  left: 67%;
+  left: 50%; */
   font-size: smaller;
   font-variant: small-caps;
-  transform: rotate(90deg);
-
+  /* transform: rotate(90deg); */
 }
 .projectdescription{
   padding: 20px;
@@ -533,7 +535,8 @@ nav{
   visibility: visible;
 }
 .linkbutton button{
-  padding:18px;
+  padding:18px 18px 15px 18px;
+  font-size:10px;
   background: #ffffffa9;
   border-radius: 100px;
   border: none;
@@ -545,14 +548,40 @@ nav{
   /* background: #000; */
 }
 /* -----------------------------------MAinCOntent ----------------------------------------------- */
+.icon{
+  position: relative;
+  left: 220px;
+  top: 100px;
+  width:100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: small;
+  font-variant: small-caps;
+}
+.icon div{
+  font-size: 6vh;
+  height:10px;
+  width:10px;
+  border-left: 2px solid var(--black);
+  border-bottom: 2px solid var(--black);
+  transform: rotate(315deg);
+  padding: 5px;
+  margin: 5px;
+}
+.icon:hover{
+  transition: 0.5s;
+  scale: 1.1;
+}
 .Maincontentdetials{
-  position: absolute;
-  bottom:20%;
-  left: 8%;
+  margin: 50px;
 }
 .Maincontentdetials a{
-    margin: 10px;
-    text-decoration: none;
+  margin: 15px;
+  text-decoration: none;
+}
+.Maincontentdetials a:last-child{
+    color: var(--black);
   }
   .resumebtn{
     border: 2px solid black;
@@ -567,7 +596,12 @@ nav{
   font-variant: small-caps;
 }
 /* -----------------------------------Myskills ----------------------------------------------- */
+.skill{
+  padding: 70px 0px;
+  /* background: #000; */
+  /* background: #000; */
 
+}
 .Myskill_contents{
     display: flex;
     flex-wrap: wrap;
@@ -579,15 +613,18 @@ nav{
   }
 .skillbox{
   padding: 10px;
-  /* filter: blur(2px); */
     height: 25vh;
     width: 200px;
-    border: 2px solid rgba(13, 137, 143, 0.685);
     border-radius: 12px;
-    background :rgba(255, 255, 255,0.1);
+    background :rgba(255, 255, 255, 0.47);
     margin: 7px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.273);
   }
-
+  .skillbox:hover{
+    background: linear-gradient(transparent,rgba(12, 142, 185, 0.636));
+    border: 0px solid transparent;
+    /* border-bottom: 2px solid rgba(196, 230, 241, 0.636); */
+}
 
 .skillimage img{
   margin: 10px auto;
@@ -600,10 +637,43 @@ nav{
   /* color: white; */
   font-weight: bolder;
   }
+
+/* -----------------------------------sidenavigator ----------------------------------------------- */
+.sidenavigationbar{
+  position: fixed;
+  top: 40%;
+  right:1%;
+  background: rgba(128, 128, 128, 0.285);
+  border-radius: 20px;
+}
+.sidenavigationbar ul{
+  list-style: none;
+}
+.sidenavigationbar li{
+  border-radius: 20px;
+  margin: 15px 0px;
+  padding: 5px;
+}
+.sidenavigationbar a{
+  border-radius: 20px;
+  padding: 5px;
+  background: #7c1f1f;
+  text-decoration: none;
+}
+.sidenavigationbar li:hover{
+  transition: 0.5s;
+  scale: 1.5;
+}
 /*
 mobile devices
 */
 @media screen and (max-width:878px) {
+  .tittle {
+    font-size: 2vh;
+  }
+  .tittle h1{
+    font-size: 4vh;
+  }
   .contentintro .image{
     display: none;
     /* background: #000; */
@@ -657,6 +727,15 @@ mobile devices
   .linkbutton{
     top: 25%;
     left: 44%;
+  }
+  .getintouch{
+    visibility: hidden;
+  }
+  .certificateimg{
+    height: 34vh;
+  }
+  .certifcateslides{
+    width: 100%;
   }
   
 }

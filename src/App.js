@@ -9,9 +9,10 @@ import {Routes,Route} from 'react-router-dom';
 import About from './components/About';
 import Projects from './components/Projects';
 function App() {
-    const [theme,settheme] = useState('Light');
+    const [theme,settheme] = useState(localStorage.getItem("Theme")==="Dark"?"Light" :"Dark");
     function changetheme(){
-        (theme==="Light")?settheme("Dark"):settheme("Light");
+        (theme!=="Light")?settheme("Light"):settheme("Dark");
+        localStorage.setItem("Theme", theme);
     }
     return(
         <div className={styles.App} data-theme={theme} >
