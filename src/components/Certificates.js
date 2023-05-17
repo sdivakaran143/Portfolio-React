@@ -41,7 +41,7 @@ export default function Certificates(){
                 infinite={true}
                 className={styles.certificatediv}
                 visibleSlides={1}
-                interval={2000}
+                interval={3000}
                 isPlaying={true}   
                 playDirection={"forward"}
             >

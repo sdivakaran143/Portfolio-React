@@ -35,6 +35,13 @@ function Maincontent(){
            {/* <h3>heading</h3> */}
                 {/* <Academics/> */}
             <Galleryview/>
+            {/* <svg width="900" height="600">
+    <path d="M 300 300
+             S 100 200 300 100
+             M 300 300
+             S 900 600 -100 610" stroke="black" stroke-width="2" fill="none"/>
+  </svg> */}
+
                 
                 
         </div>

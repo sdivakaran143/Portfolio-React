@@ -40,7 +40,10 @@ const Introductions =()=>{
     return(
         <div data-aos="fade-in" className={styles.introduction} >
         <h3>introduction my self</h3><br/>
+       <div>
        <p className={styles.introductioncontent}>{detials.intro}</p>
+       <div className={styles.image}></div>
+       </div>
        </div>
     );
 }

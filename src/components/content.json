@@ -9,28 +9,44 @@
         "collegepercentage":"7.98 upto 5th Semester"
     },
     "certificates":[
-        
         {
-        "tittle":"Certified in Python programming for beginners through Tech Learn online course.",
-        "link":"https://static.vecteezy.com/system/resources/thumbnails/000/953/926/small/purple-and-gold-certificate-of-appreciation.jpg"
-    },
-    {
-        "tittle":"Participated in inter-college paper presentations on cyber threats at Vellalar College of Engineering and Technology and K.S.R. College of Engineering.",
-        "link":"https://static.vecteezy.com/system/resources/thumbnails/000/953/926/small/purple-and-gold-certificate-of-appreciation.jpg"
-    },
-    {
-        "tittle":"Attended Tech Learn seminars on Python and APIs, enhancing knowledge in programming and web development.",
-        "link":"https://static.vecteezy.com/system/resources/thumbnails/000/953/926/small/purple-and-gold-certificate-of-appreciation.jpg"
-    },
-    {
-        "tittle":"Completed \"The Complete ReactJs Course - Basics to Advanced [2023]\" on Udemy, gaining expertise in ReactJs development.",
-        "link":"https://static.vecteezy.com/system/resources/thumbnails/000/953/926/small/purple-and-gold-certificate-of-appreciation.jpg"
-    },
-    {
-        "tittle":"Participated in inter-college paper presentation on Ecommerce product comparison at KIT-Kalaignarkarunanidhi Institute of Technology.",
-        "link":"https://static.vecteezy.com/system/resources/thumbnails/000/953/926/small/purple-and-gold-certificate-of-appreciation.jpg"
-    }
-        ],
+            "tittle":"Participated in Online Webinar or Online Training Module Programe on \"STUDENT ENTREPRENEURSHIP AWARENESS PROGRAMME\" conducted by enterpreneurhip development and innovation institute",
+            "link":"/images/studententrepreneurshipprogram.jpg"
+        },
+        {
+            "tittle":"Attended online session on \"Building your first Python project - Personal Chat Assistant\" conducted by Techlearn.",
+            "link":"/images/pythonproject.jpg"
+        },
+        {
+            "tittle":"Certified in \"Python Programming For Beginners\" through Tech Learn online course.",
+            "link":"/images/pythoncourse.jpg"
+        },
+        {
+            "tittle":"Successfully completed an internship [17-12-2021 to 17-1-2022] as a \"Campus leader at Techlearn.live, demonstrating exceptional leadership skills and team management.",
+            "link":"/images/techlearnintern.jpg"
+        },
+        {
+            "tittle":"participated in the Paper Techrix [Cyber security] and Code Debugging events at Horizon'22 in Velalar College of Engineering and Technology.",
+            "link":"/images/VellalarSymposium.png"
+        },
+        {
+            "tittle":"participated in paper presentation [Cyber threats], Code Guru, web designing, and Just a Minute events at Asthra 2022 in  K.S.R. College of Engineering.",
+            "link":"/images/ksrceit.png"
+        },
+        {
+            "tittle":"participation in Learnathon 2022 Organized by ICT Academy during August 2022 - October 2022",
+            "link":"/images/ict2022.jpg"
+        },
+        {
+            "tittle":"Completed \"The Complete ReactJs Course - Basics to Advanced [2023]\" on Udemy, gaining expertise in ReactJs development.",
+            "link":"https://udemy-certificate.s3.amazonaws.com/image/UC-68a2be20-988e-476c-8f02-20c40e1a7d7a.jpg"
+        },
+        {
+            "tittle":"Participated in inter-college technical fest, Udhayam'23 at KIT-Kalaignarkarunanidhi Institute of Technology, in paper presentation on Ecommerce product comparison and Code Hunters and Code Debugging events.",
+            "link":"/images/kit.png"
+        }
+    
+],
     "projectsContent":[
         
         {

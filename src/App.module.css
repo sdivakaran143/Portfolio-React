@@ -63,9 +63,12 @@ nav {
   color: var(--black);
   background-color: var(--white);
 }
-.navmain li:last-child:hover>.link{
-  border-radius: 5px;
-  background: var(--litegrey);
+.navmain .getintouch:hover>.link{
+  transition: 0.5s;
+  border-radius: 10px;
+  /* background: var(--litegrey); */
+  background-color: var(--white);
+  color: var(--black);
 }
 .link:hover{
   box-shadow: 0px 0px 2px var(--navbutton) ;
@@ -324,14 +327,12 @@ nav{
 
 /* -----------------------------------subcomponent js ----------------------------------------------- */
 .academic{
-  margin: 30px 0px;
+  margin: 30px auto;
   font-size: 13px;
   display: grid;
-  width: 85%;
-  position: relative;
-  left:15%;
   text-align: center;
-  grid-template-columns: repeat(2,40%);
+  width: 80%;
+  grid-template-columns: repeat(2,50%);
 }
 .academicdetials{
   word-wrap: break-word;
@@ -382,18 +383,30 @@ nav{
 }
 .thisisblock{
   margin-top: 3%;
+  background: #b0abab61;
+  height: 97vh;
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  justify-content: center;
 }
 
 /* -----------------------------------about js ----------------------------------------------- */
 .introduction{
-  /* border: 2px solid red; */
-  height:75vh ;
-  background: rgba(149, 233, 237, 0.702);
-  /* width: 91%; */
-  padding: 25px;
+  height:65vh ;
+  width: 60%;
+  margin: 10px auto;
+  padding-top: 5%;
+  background: rgba(13, 13, 13, 0.473);
   text-align: center;
-  clip-path: polygon(0% 10%,100% 0%,100% 75%,0% 90%);
+  border-radius: 20px;
+}
+.introduction div{
   margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
 .introduction h3{
   background: #000;
@@ -402,15 +415,18 @@ nav{
   display: inline;
   border-radius: 10px;
 }
-.introductioncontent,h3{
+.introductioncontent{
+  width: 75%;
   line-height: 27px;
-  position: relative;
-  top: 20%;
-  left: 0%;
-  padding: 25px 0px 0px 0px;
+  margin: 20px;
   /* width:50%; */
 }
-
+.introduction .image{
+  width: 400px;
+  height: 300px;
+  border-radius: 500px;
+  background: ghostwhite;
+}
 /* -----------------------------------gabout js( certificate ) ----------------------------------------------- */
 .certificatemaindiv{
 }
@@ -434,6 +450,7 @@ nav{
   color: var(--black);
   width: 88%;
   margin: 0px auto;
+  line-height: 30px;
 }
 .navigationbtn{
   font-size: 30px;
@@ -549,15 +566,12 @@ nav{
 }
 /* -----------------------------------MAinCOntent ----------------------------------------------- */
 .icon{
-  position: relative;
-  left: 220px;
-  top: 100px;
-  width:100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: small;
   font-variant: small-caps;
+  margin-top: 30%;
 }
 .icon div{
   font-size: 6vh;
@@ -732,10 +746,15 @@ mobile devices
     visibility: hidden;
   }
   .certificateimg{
-    height: 34vh;
+    height: 33vh;
   }
   .certifcateslides{
     width: 100%;
+    height: 58vh;
+  }
+  .certificatedescription{
+    font-size: 15px;
+    line-height:19px;
   }
   
 }
