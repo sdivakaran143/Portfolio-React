@@ -393,20 +393,16 @@ nav{
 
 /* -----------------------------------about js ----------------------------------------------- */
 .introduction{
-  height:65vh ;
-  width: 60%;
+  height:fit-content ;
+  width: 85%;
   margin: 10px auto;
   padding-top: 5%;
   background: rgba(13, 13, 13, 0.473);
   text-align: center;
-  border-radius: 20px;
+  border-radius: 40px;
 }
 .introduction div{
   margin: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row-reverse;
 }
 .introduction h3{
   background: #000;
@@ -416,20 +412,22 @@ nav{
   border-radius: 10px;
 }
 .introductioncontent{
-  width: 75%;
+  width: 95%;
   line-height: 27px;
-  margin: 20px;
+  padding: 30px 20px;
+  margin: 10px;
   /* width:50%; */
 }
 .introduction .image{
-  width: 400px;
+  width: 300px;
   height: 300px;
   border-radius: 500px;
   background: ghostwhite;
-}
+  margin:  1px auto;
+  background-image: url("/profile/public/images/mine.jpg");
+} 
 /* -----------------------------------gabout js( certificate ) ----------------------------------------------- */
-.certificatemaindiv{
-}
+
 .certificatediv{
   padding: 10px;
   text-align: center;
@@ -746,15 +744,16 @@ mobile devices
     visibility: hidden;
   }
   .certificateimg{
-    height: 33vh;
+    height: 28vh;
   }
   .certifcateslides{
     width: 100%;
-    height: 58vh;
+    height: 56vh;
   }
   .certificatedescription{
+    margin: auto 20px;
     font-size: 15px;
-    line-height:19px;
+    line-height:21px;
   }
   
 }
