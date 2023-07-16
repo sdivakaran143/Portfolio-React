@@ -8,9 +8,9 @@ const Academics=()=>{
         AOS.init({duration:2000});
     },[]);
     return(
-        <div className={styles.thisisblock} data-aos="flip-left">
-        <h3>academics</h3>
-        <div className={styles.academic}>
+        <div className={styles.thisisblock} >
+        <h3 className={styles.subheading}>academics</h3>
+        <div className={styles.academic}data-aos="flip-left">
             <div className={[styles.academicdetials,styles.acd1].join(" ")}>
                 <p>2020-2024</p>
                 <div data-aos="fade-left" className={styles.frame}>
@@ -38,13 +38,15 @@ const Academics=()=>{
 }
 const Introductions =()=>{
     return(
-        <div data-aos="fade-in" className={styles.introduction} >
-        <h3>introduction my self</h3><br/>
-       <div>
-       <div className={styles.image}></div>
-       <p className={styles.introductioncontent}>{detials.intro}</p>
-       </div>
-       </div>
+        <div className={styles.introductionheight}>
+            <div data-aos="fade-in" className={styles.introduction} >
+                <h3 className={styles.subheading}>introduction my self</h3><br/>
+            <div>
+            <div className={styles.image}></div>
+                <p className={styles.introductioncontent}>{detials.intro}</p>
+            </div>
+            </div>
+        </div>
     );
 }
 export  {Academics,Introductions};

@@ -6,11 +6,13 @@ import skillist from "./content.json";
 
 export default function Myskills(){  
     useEffect(()=>{
-        AOS.init({duration:500});
+        AOS.init({duration:1000});
     },[]);
 
     const skilssets=()=>{
         return(
+            <div className={styles.skillsets} data-aos="fade-in">
+                <h3 className={styles.subheading}>Skills</h3>
             <div className={styles.Myskill_contents}>
                {
                 skillist.skills.map(x=>{
@@ -28,12 +30,12 @@ export default function Myskills(){
                }
 
             </div>
+            </div>
         )
     }
    
     return(
         <div className={styles.skill}>
-            <h3>Skills</h3>
             {skilssets()}
         </div>
     );

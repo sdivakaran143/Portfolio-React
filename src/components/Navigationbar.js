@@ -30,7 +30,7 @@ function Navigationbar(props){
                 <li><Link className={styles.link} onClick="#" to="/About" >About</Link></li>
                 <li><Link className={styles.link} onClick="#" to="/Projects" >Projects</Link></li>
                 <li><Link className={styles.link} onClick="#" to="/ContactMe" >Contact</Link></li>
-                {(pos)?<li className={styles.getintouch} data-aos="fade-in"><Link className={styles.link} onClick="#" to="/ContactMe">Get In Touch</Link></li>:""}
+                {(pos)?<li className={styles.getintouch} data-aos="fade-in"><Link className={styles.link} onClick="#" to="/SocialMedia">Get In Touch</Link></li>:""}
             </ul>
             <Link className={styles.logo} to="/SocialMedia"><MdOutlineConnectWithoutContact className={styles.logo}/></Link>
             <button className={styles.changeLogo} onClick={()=>{

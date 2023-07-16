@@ -32,8 +32,8 @@ export default function Certificates(){
     }
    
     return(
-        <div className={styles.certificatemaindiv}>
-            <h3>Certificate</h3>
+        <div className={styles.certificatemaindiv} data-aos="zoom-in">
+            <h3 className={styles.subheading}>Certificate</h3>
             <CarouselProvider
                 naturalSlideWidth={1}
                 naturalSlideHeight={1}

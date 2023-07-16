@@ -38,7 +38,7 @@
             "link":"/images/ict2022.jpg"
         },
         {
-            "tittle":"Completed \"The Complete ReactJs Course - Basics to Advanced [2023]\" on Udemy, gaining expertise in ReactJs development.",
+            "tittle":"Completed \"The Complete ReactJs Course - Basics to Advanced [2022]\" on Udemy, gaining expertise in ReactJs development.",
             "link":"https://udemy-certificate.s3.amazonaws.com/image/UC-68a2be20-988e-476c-8f02-20c40e1a7d7a.jpg"
         },
         {
@@ -52,9 +52,9 @@
         {
             "id":1,
             "image":"images/vcapi.jpeg",
-            "title":"Personal voice assistant API",
+            "title":"Personal voice assistant",
             "link":"https://github.com/",
-            "description":"Developed a Personal Voice Assistant API capable of performing operations such as Google search and custom commands",
+            "description":"Developed a Python-based Personal Voice Assistant enabling Google search functionality and custom command execution.",
             "tech":"Python"
         },{
             "id":2,

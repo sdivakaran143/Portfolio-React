@@ -6,6 +6,8 @@ import {Academics} from './Subcomponents';
 import {Introductions as Intro} from './Subcomponents';
 import Myskills from './Myskills';
 import Certificates from './Certificates';
+import { Link } from 'react-scroll';
+
 export default function About(){
     useEffect(()=>{
         AOS.init({duration:2000});
@@ -16,10 +18,10 @@ export default function About(){
         return (
             <div className={styles.sidenavigationbar}>
                 <ul>
-                    <li><a href='#intro'>&nbsp;</a></li>
-                    <li><a href='#Academics'>&nbsp;</a></li>
-                    <li><a href='#Myskills'>&nbsp;</a></li>
-                    <li><a href='#Certificates'>&nbsp;</a></li>
+                    <li><Link  to='https:\\google.com' className={styles.pointer} smooth={true} duration={500}>top</Link></li>
+                    <li><Link className={styles.pointer} smooth={true} duration={500} to='#Academics'>&nbsp;</Link></li>
+                    <li><Link className={styles.pointer} smooth={true} duration={500} to='#Myskills'>&nbsp;</Link></li>
+                    <li><Link className={styles.pointer} smooth={true} duration={500} to='#Certificates'>&nbsp;</Link></li>
                 </ul>
             </div>
         );
@@ -34,7 +36,7 @@ export default function About(){
                 <Myskills/>
                 <span id='Certificates'/>
                 <Certificates/>
-                {/* {navigatebar()} */}
+                {navigatebar()}
             </div>
         );
 
