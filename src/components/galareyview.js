@@ -1,5 +1,4 @@
 import styles from '../App.module.css';
-
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import  'aos/dist/aos.css'
@@ -16,6 +15,7 @@ export default function Galleryview(){
                     <div className={[styles.galleryphoto,styles.photo4].join(" ")}></div>
                     <div className={[styles.galleryphoto,styles.photo5].join(" ")}></div>
                 </div>
+                
             </div>
         );
 

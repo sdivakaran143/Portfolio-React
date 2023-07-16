@@ -8,7 +8,7 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 
 export default function Certificates(){  
     useEffect(()=>{
-        AOS.init({duration:500});
+        AOS.init({duration:1000});
     },[]);
 
     const certificategenerate=()=>{
@@ -32,7 +32,7 @@ export default function Certificates(){
     }
    
     return(
-        <div className={styles.certificatemaindiv} data-aos="zoom-in">
+        <div className={styles.certificatemaindiv} data-aos="fade-up">
             <h3 className={styles.subheading}>Certificate</h3>
             <CarouselProvider
                 naturalSlideWidth={1}
