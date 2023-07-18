@@ -32,7 +32,7 @@ function Navigationbar(props){
                 <li><Link className={styles.link} onClick="#" to="/ContactMe" >Contact</Link></li>
                 {(pos)?<li className={styles.getintouch} data-aos="fade-in"><Link className={styles.link} onClick="#" to="/SocialMedia">Get In Touch</Link></li>:""}
             </ul>
-            <Link className={styles.logo} to="/Home"><MdOutlineConnectWithoutContact className={styles.logo}/></Link>
+            <Link className={styles.logo} to="/ContactMe"><MdOutlineConnectWithoutContact className={styles.logo}/></Link>
             <button className={styles.changeLogo} onClick={()=>{
                 changelogo();
                 props.changetheme();
