@@ -26,14 +26,13 @@ function Navigationbar(props){
         <div className={styles.navmain}>
              <div className={(pos)?styles.addcolor:""}>
             <ul>
-                <li><Link className={styles.link} to="/Home" onClick="#">Home</Link></li>
-                <li><Link className={styles.link} to="/About" onClick="#" >About</Link></li>
-                <li><Link className={styles.link} to="/Projects" onClick="#" >Projects</Link></li>
-                <li><Link className={styles.link} to="/ContactMe" onClick="#" >Contact</Link></li>
+                <li><Link className={styles.link} to="/Home" >Home</Link></li>
+                <li><Link className={styles.link} to="/About" >About</Link></li>
+                <li><Link className={styles.link} to="/Projects" >Projects</Link></li>
+                <li><Link className={styles.link} to="/ContactMe">Contact</Link></li>
                 {(pos)?<li className={styles.getintouch} data-aos="fade-in"><Link className={styles.link} onClick="#" to="/SocialMedia">Get In Touch</Link></li>:""}
             </ul>
-                <Link className={styles.link} to="/Projects"s >Projects</Link>
-                <Link className={styles.link} to="/ContactMe" onClick="#" >Contact</Link>
+            <Link className={styles.link} to="/Projects"s >Projects</Link>
             <Link className={styles.logo} to="/ContactMe"><MdOutlineConnectWithoutContact className={styles.logo}/></Link>
             <button className={styles.changeLogo} onClick={()=>{
                 changelogo();
