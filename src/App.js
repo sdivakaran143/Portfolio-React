@@ -1,15 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import styles from './App.module.css';
 import Navigationbar from './components/Navigationbar';
 import Maincontent from './components/Maincontent';
 import Footer from './components/Footer';
 import Contactme from './components/Contactme';
 import SocialMedias from './components/SocialMedia';
-import {Routes,Route} from 'react-router-dom';
+import {Routes,Route,useLocation} from 'react-router-dom';
 import About from './components/About';
 import Projects from './components/Projects';
 function App() {
     const [theme,settheme] = useState(localStorage.getItem("Theme")==="Dark"?"Light" :"Dark");
+    const location = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to top on route change
+      }, [location]);    
     function changetheme(){
         (theme!=="Light")?settheme("Light"):settheme("Dark");
         localStorage.setItem("Theme", theme);
@@ -21,11 +25,11 @@ function App() {
             </nav>
             <div className={styles.CompleteContent}>
                 <Routes>
-                    <Route path='/' element={<Maincontent/>}/>
+                    <Route path='/' element={<Maincontent key="maincontent"/>}/>
                     <Route path='/Home' element={<Maincontent/>}/>
                     <Route path='/ContactMe' element={<Contactme/>}/>
                     <Route path='/SocialMedia' element={<SocialMedias/>}/>
-                    <Route path='/About' element={<About/>}/>
+                    <Route path='/About' element={<About key="about"/>}/>
                     <Route path='/Projects' element={<Projects/>}/>
                 </Routes>
             </div>
