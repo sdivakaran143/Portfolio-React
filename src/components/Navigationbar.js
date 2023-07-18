@@ -26,10 +26,10 @@ function Navigationbar(props){
         <div className={styles.navmain}>
              <div className={(pos)?styles.addcolor:""}>
             <ul>
-                <li><Link className={styles.link} to="/Home" >Home</Link></li>
-                <li><Link className={styles.link} to="/About" >About</Link></li>
-                <li><Link className={styles.link} to="/Projects" >Projects</Link></li>
-                <li><Link className={styles.link} to="/ContactMe">Contact</Link></li>
+                <Link className={styles.link} to="/Home" >Home</Link>
+                <Link className={styles.link} to="/About" >About</Link>
+                <Link className={styles.link} to="/Projects" >Projects</Link>
+                <Link className={styles.link} to="/ContactMe">Contact</Link>
                 {(pos)?<li className={styles.getintouch} data-aos="fade-in"><Link className={styles.link} onClick="#" to="/SocialMedia">Get In Touch</Link></li>:""}
             </ul>
             <Link className={styles.link} to="/Projects"s >Projects</Link>
