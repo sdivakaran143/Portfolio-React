@@ -516,6 +516,14 @@ nav{
   border: 2px solid green;
 }
 
+.buttonlink{
+  text-decoration: none;
+  color: var(--white);
+  background: var(--black);
+  padding: 5px 8px 5px 8px;
+  border-radius: 5px;
+}
+
 /* -----------------------------------Project js ----------------------------------------------- */
 
 .project_cards{
@@ -751,6 +759,9 @@ mobile devices
   }
   .projectCenterContent img{
     width: 100%;
+  }
+  .yes{
+    background-color:red
   }
 
   .linkbutton{
