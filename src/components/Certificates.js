@@ -8,7 +8,7 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 
 export default function Certificates(){  
     useEffect(()=>{
-        AOS.init({duration:1000});
+        AOS.init({duration:450});
     },[]);
 
     const certificategenerate=()=>{

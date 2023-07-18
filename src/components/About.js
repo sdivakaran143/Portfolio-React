@@ -18,10 +18,10 @@ export default function About(){
         return (
             <div className={styles.sidenavigationbar}>
                 <ul>
-                    <li><Link to='Intro'className={styles.sidelink} smooth={true} duration={500}>&nbsp;</Link></li>
-                    <li><Link to='Academics'className={styles.sidelink} smooth={true} duration={500} >&nbsp;</Link></li>
-                    <li><Link to='Myskills' className={styles.sidelink} smooth={true} duration={500} >&nbsp;</Link></li>
-                    <li><Link to='Certificates' className={styles.sidelink} smooth={true} duration={500} >&nbsp;</Link></li>
+                    <li><Link to='Intro'className={styles.sidelink} smooth={true} duration={400}>&nbsp;</Link></li>
+                    <li><Link to='Academics'className={styles.sidelink} smooth={true} duration={400} >&nbsp;</Link></li>
+                    <li><Link to='Myskills' className={styles.sidelink} smooth={true} duration={400} >&nbsp;</Link></li>
+                    <li><Link to='Certificates' className={styles.sidelink} smooth={true} duration={400} >&nbsp;</Link></li>
                 </ul>
             </div>
         );
