@@ -46,7 +46,7 @@ export default function Galleryview(){
                                 <p>
                                     <p>Iam Currently Pursuing My Bacholr's Degree At K.S.R. College of Enginnering in The Branch of "Computer Science And Engineering"</p>
                                 </p>
-                                <br/><Link className={styles.buttonlink} to="/About" onClick="#" >Click For More</Link><br/>
+                                <br/><Link className={styles.buttonlink} to="/About">Click For More</Link><br/>
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
                                 className="vertical-timeline-element--work. messagebox"
@@ -60,7 +60,7 @@ export default function Galleryview(){
                                 <p>
                                 "Get ready to dive into my academic project and witness some mind-blowing stuff! I've cracked open tough problems, uncovered wicked solutions, and made a real splash in the field. Join me on this epic ride as I show you the game-changing impact of my work. It's gonna blow your mind, so buckle up and let's get exploring!"
                                 </p>
-                                <br/><Link className={styles.buttonlink} onClick="#" to="/Projects">Explore It</Link><br/>
+                                <br/><Link className={styles.buttonlink} to="/Projects">Explore It</Link><br/>
                             </VerticalTimelineElement>
                             <VerticalTimelineElement
                                 className="vertical-timeline-element--education"
@@ -74,7 +74,7 @@ export default function Galleryview(){
                                 <p>
                                 "Click now to connect with me and let's start unraveling the fascinating details together. Whether you're curious, have questions, or simply want to explore further, don't hesitate to reach out. Get in touch and let's embark on an unforgettable intellectual adventure!"
                                 </p>
-                                <br/><Link className={styles.buttonlink} onClick="#" to="/SocialMedia">Get In Touch</Link><br/>
+                                <br/><Link className={styles.buttonlink} to="/SocialMedia">Get In Touch</Link><br/>
                             </VerticalTimelineElement>
                     </VerticalTimeline>
                 </div>
