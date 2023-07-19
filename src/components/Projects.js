@@ -28,7 +28,7 @@ export default function Projects(){
                         <img src={x.image} alt="image" />
                         <div className={styles.hoverindication} ><p>Hover to get link</p></div>
 
-                       <div className={styles.linkbutton} ><button ><Link to={x.link}><FaLink/></Link><br/></button><p>Github</p></div>
+                       <div className={styles.linkbutton} ><button ><Link target='_blank' to={x.link}><FaLink/></Link><br/></button><p>Github</p></div>
                     </div>
                     <div className={styles.projectdescription}>
                         <h1 className={styles.captial}><b>{x.title}</b></h1>
