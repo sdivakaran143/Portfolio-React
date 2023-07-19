@@ -2,6 +2,7 @@ import styles from '../App.module.css';
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import  'aos/dist/aos.css'
+import {Link} from "react-router-dom";
 import {FaLink} from "react-icons/fa";
 // import {SiMinutemailer} from "react-icons/si";
 import projectsContent from "./content.json";
@@ -27,7 +28,7 @@ export default function Projects(){
                         <img src={x.image} alt="image" />
                         <div className={styles.hoverindication} ><p>Hover to get link</p></div>
 
-                       <div className={styles.linkbutton} ><button ><a href={x.link}><FaLink/></a><br/></button><p>Github</p></div>
+                       <div className={styles.linkbutton} ><button ><Link to={x.link}><FaLink/></Link><br/></button><p>Github</p></div>
                     </div>
                     <div className={styles.projectdescription}>
                         <h1 className={styles.captial}><b>{x.title}</b></h1>

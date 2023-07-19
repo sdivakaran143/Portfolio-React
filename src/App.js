@@ -25,11 +25,11 @@ function App() {
             </nav>
             <div className={styles.CompleteContent}>
                 <Routes>
-                    <Route path='/' element={<Maincontent key="maincontent"/>}/>
+                    <Route path='/' element={<Maincontent/>}/>
                     <Route path='/Home' element={<Maincontent/>}/>
                     <Route path='/ContactMe' element={<Contactme/>}/>
                     <Route path='/SocialMedia' element={<SocialMedias/>}/>
-                    <Route path='/About' element={<About key="about"/>}/>
+                    <Route path='/About' element={<About/>}/>
                     <Route path='/Projects' element={<Projects/>}/>
                 </Routes>
             </div>
