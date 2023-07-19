@@ -6,7 +6,7 @@
         "college":"K.S.R. College of Engineering,Tiruchengode,Namakkal,TamilNadu",
         "sslcpercentage":"65.4",
         "hscpercentage":"61.16",
-        "collegepercentage":"7.98 upto 5th Semester"
+        "collegepercentage":"7.98 upto 6th Semester"
     },
     "certificates":[
         {
@@ -79,9 +79,16 @@
             "link":"https://github.com/",
             "description":"Developed an Ecommerce product comparison application using JavaScript libraries to compare products from Amazon and Flipkart, demonstrating proficiency in web development and data analysis.",
             "tech":"ReactJs , NodeJs ,ExpressJs"
+        },{
+            "id":5,
+            "image":"images/portfolio.png",
+            "title":"Portfolio",
+            "link":"https://divakaransenthilkumar.onrender.com/",
+            "description":"Developed a responsive personal portfolio using ReactJS to showcase my skills",
+            "tech":"ReactJs"
         },
         {
-            "id":5,
+            "id":6,
             "image":"images/productpreiwew.png",
             "title":"product preview page",
             "link":"https://github.com/", 
@@ -89,12 +96,12 @@
             "tech":"ReactJs"
         },
         {
-            "id":6,
+            "id":7,
             "image":"images/githubprofilechecker.png",
             "title":"Github Profile Checker",
             "link":"https://githubprofilechecker.onrender.com/",
             "description":"Built a ReactJS app that displays a user's Github details using Github's API.",
-            "tech":"ReactJs"
+            "tech":"ReactJs , Github API"
         }
         
     ],
