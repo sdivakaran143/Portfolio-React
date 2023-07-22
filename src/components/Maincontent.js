@@ -19,8 +19,8 @@ function Maincontent(){
                 <span>Student At K.S.R. college of engineering</span>
                 {/* <span>Mern stack developer</span> */}
                 <div className={styles.Maincontentdetials}>
-                    <Link className={styles.resumebtn} target='_blank'href="https://sdivakaran143.github.io/Virtual-Resume/">View Resume</Link>
-                    <Link to="/About" >View Detials ➟</Link>
+                    <Link className={styles.resumebtn} target='_blank' to="https://sdivakaran143.github.io/Virtual-Resume/">View Resume</Link>
+                    <Link to="/About" >View Detials➟</Link>
                 </div>
                 
                 <div className={styles.icon}>
