@@ -25,7 +25,7 @@ export default function Projects(){
                     <div style={style} className={styles.project_cards}>
                     <div data-aos="fade-up" key={x.id} className={styles.projectCenterContent}>
                     <div className={styles.imgediv}>       
-                        <img src={x.image} alt="image" />
+                        <img src={x.image} alt="project images" />
                         <div className={styles.hoverindication} ><p>Hover to get link</p></div>
 
                        <div className={styles.linkbutton} ><button ><Link target='_blank' to={x.link}><FaLink/></Link><br/></button><p>Github</p></div>
