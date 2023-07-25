@@ -19,7 +19,7 @@ export default function Certificates(){
                     return(
                         // <div key={x.key} className={styles.certificate} data-aos="fade-up"data-aos-anchor-placement="center-bottom">
                         <Slide index={x.key} className={styles.certifcateslide}>
-                            <img className={styles.certificateimg} src={x.link}/>
+                            <img className={styles.certificateimg} src={x.link} alt='Certificate'/>
                             <div className={styles.certificatedescription}>{x.tittle}</div>
                         </Slide>
                     );

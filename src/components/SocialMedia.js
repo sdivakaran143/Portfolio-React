@@ -1,7 +1,6 @@
 import styles from '../App.module.css';
 import React from 'react';
 import {BsFacebook,BsTwitter,BsGithub,BsInstagram,BsYoutube,BsLinkedin,BsWhatsapp} from "react-icons/bs";
-import {SiMinutemailer} from "react-icons/si";
 import { Link } from 'react-router-dom';
 export default function socialmedias(){
         return(

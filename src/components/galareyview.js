@@ -42,7 +42,6 @@ export default function Galleryview(){
                                 icon=""
                             >
                                 <h3 className="vertical-timeline-element-title">me!</h3>
-                                <h4 className="vertical-timeline-element-subtitle"></h4>
                                 <p>
                                     <p>Iam Currently Pursuing My Bacholr's Degree At K.S.R. College of Enginnering in The Branch of "Computer Science And Engineering"</p>
                                 </p>

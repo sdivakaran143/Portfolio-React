@@ -1,4 +1,5 @@
 import styles from '../App.module.css';
+import React from 'react';
 import {BsFacebook,BsTwitter,BsGithub,BsInstagram,BsYoutube} from "react-icons/bs";
 function Footer (){
     return(
