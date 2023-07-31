@@ -771,7 +771,7 @@ mobile devices
   }
   .introductioncontent{
     padding: 5px 0px;
-    text-align:left;
+    text-align:justify;
     /* background: #000; */
   }
   .projectCenterContent img{
