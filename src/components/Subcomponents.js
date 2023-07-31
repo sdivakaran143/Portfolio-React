@@ -3,6 +3,9 @@ import styles from '../App.module.css';
 import React, {useEffect } from 'react';
 import AOS from 'aos';
 import  'aos/dist/aos.css';
+import {FaSchool,FaUniversity,FaPercentage} from "react-icons/fa";
+import {GrNotes} from "react-icons/gr";
+
 const Academics=()=>{
     useEffect(()=>{
         AOS.init({duration:2000});
@@ -14,22 +17,25 @@ const Academics=()=>{
             <div className={[styles.academicdetials,styles.acd1].join(" ")}>
                 <p>2020-2024</p>
                 <div data-aos="fade-left" className={styles.frame}>
+                <FaUniversity/>
                 <p>{detials.academic.college}</p><br/>
-                <span>Percentage : {detials.academic.collegepercentage}</span>
+                <span><GrNotes/> {detials.academic.collegepercentage}</span>
                 </div>
             </div>
             <div className={[styles.academicdetials,styles.acd2].join(" ")}>
                 <p>2020</p>
                 <div data-aos="fade-right" className={styles.frame}>
+                <FaSchool/>
                 <p>{detials.academic.hsc}</p><br/>
-                <span>Percentage : {detials.academic.hscpercentage}</span>
+                <span><GrNotes/> {detials.academic.hscpercentage}%</span>
                 </div>
             </div>
             <div className={[styles.academicdetials,styles.acd3].join(" ")}>
                 <p>2018</p>
                 <div data-aos="fade-left" className={styles.frame}>
+                <FaSchool/>
                 <p>{detials.academic.sslc}</p><br/>
-                <span>Percentage : {detials.academic.sslcpercentage}</span>
+                <span><GrNotes/> {detials.academic.sslcpercentage}%</span>
                 </div>
             </div>
         </div>

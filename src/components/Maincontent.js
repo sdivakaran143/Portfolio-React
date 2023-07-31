@@ -20,7 +20,7 @@ function Maincontent(){
                 {/* <span>Mern stack developer</span> */}
                 <div className={styles.Maincontentdetials}>
                     <Link className={styles.resumebtn} target='_blank' to="https://sdivakaran143.github.io/Virtual-Resume/">View Resume</Link>
-                    <Link to="/About" className={styles.aboutlink} >View Detials➟</Link>
+                    <Link to="/About" >View Detials➟</Link>
                 </div>
                 
                 <div className={styles.icon}>

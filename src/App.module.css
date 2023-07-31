@@ -234,26 +234,39 @@ div.contactme{
   top: 50px;
   text-align: center;
 }
+.main_content{
+  display: flex;
+  justify-content: center;
+}
 .main_content input{
-  /* background: #000; */
   padding: 13px;
-  margin: 5px;
-  width: 80%;
+  width: 80vw;
+  color: var(--black);
+  background: none;
+  outline: none;
+  border: none;
 }
-
-.halfinput{
-  max-width: 38.5%;
+.contact_contents fieldset{
+  margin: 20px 0px;
+  border-radius: 8px;
+  width:100%;
 }
-.fullinput{
-  width:98%;
+.main_content filter{
+  width: fit-content;
 }
+/* background: #000; */
 .largebox{
   padding: 13px;
   margin: 5px;
   height:200px;
   max-height: 350px;
-  min-width: 50%;
+  min-width: 70%;
   max-width: 80%;
+  background: none;
+  outline: none;
+  border: none;
+  color: var(--black);
+
 }
 .contact_contents{
   height:700px;
@@ -626,7 +639,6 @@ nav{
 }
 .Maincontentdetials a:last-child{
     color: var(--black);
-    display: block;
   }
   .resumebtn{
     border: 2px solid black;
@@ -711,6 +723,7 @@ nav{
   transition: 0.2s;
   scale: 1.5;
 }
+
 /*
 mobile devices
 */
@@ -721,6 +734,9 @@ mobile devices
   }
   .tittle h1{
     font-size: 3.8vh;
+  }
+  .Maincontentdetials a:last-child{
+    display: block;
   }
   .contentintro .image{
     display: none;
@@ -795,6 +811,19 @@ mobile devices
     padding:0px;
     margin-top: 43% ;
     height:50vh;
+  }
+  .main_content input{
+    padding: 13px;
+  }
+  .largebox{
+    width: 80vw;
+
+    margin: 0px;
+  }
+  .contact_contents fieldset{
+    margin: 20px 0px;
+    border-radius: 8px;
+    width:80%;
   }
   
 }
