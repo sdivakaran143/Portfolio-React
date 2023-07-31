@@ -1,6 +1,6 @@
 :root{
   --black: #171c28 ;
-  --white:#ffffff;
+  --white:#fafafafa;
   --truewhite:#000000;
   --litegrey:rgb(211, 211, 209);
   --navbutton:rgba(0, 0, 0, 0.299);
@@ -8,7 +8,7 @@
   --lowblack:rgba(0, 0, 0, 0.291);
   --text:black;
   transition: 1s;
-  --backshade: rgba(213, 213, 213, 0.578);
+  --backshade:linear-gradient(to top , rgba(235, 235, 235, 0.746),rgba(255, 255, 255, 0.762));
 }
 [data-theme="Dark"]{
   --trueblack: #171c28 ;
@@ -418,7 +418,7 @@ nav{
   background:var(--backshade);
   text-align: center;
   border-radius: 40px;
-  box-shadow: 1px 2px 8px rgba(47, 47, 47, 0.608);
+  box-shadow: 1px 2px 5px rgba(91, 90, 90, 0.277);
 }
 .introduction div{
   margin: 5px;
@@ -626,14 +626,15 @@ nav{
 }
 .Maincontentdetials a:last-child{
     color: var(--black);
+    display: block;
   }
   .resumebtn{
     border: 2px solid black;
     background: var(--black);
     color: var(--white);
     padding: 5px 10px 5px 10px;
-    border: 2px double white;
-    border-radius: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
 }
 
 .captial{
@@ -719,7 +720,7 @@ mobile devices
     font-size: 2vh;
   }
   .tittle h1{
-    font-size: 4vh;
+    font-size: 3.8vh;
   }
   .contentintro .image{
     display: none;
