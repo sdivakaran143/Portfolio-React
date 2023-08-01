@@ -53,14 +53,14 @@
             "id":1,
             "image":"images/vcapi.jpeg",
             "title":"Personal voice assistant",
-            "link":"https://github.com/",
+            "link":"https://github.com/sdivakaran143/Python_Bot-Python-Voice-Assistant",
             "description":"Developed a Python-based Personal Voice Assistant enabling Google search functionality and custom command execution.",
             "tech":"Python"
         },{
             "id":2,
             "image":"images/virtual-resume.png",
             "title":"Virtual resume",
-            "link":"https://github.com/",
+            "link":"https://sdivakaran143.github.io/Virtual-Resume/",
             "description":"Developed a virtual portfolio using HTML, CSS, and JavaScript to showcase my design and development skills.Implemented responsive design techniques to ensure optimal user experience across various devices.",
             "tech":"HTML,CSS"
         },
@@ -68,7 +68,7 @@
             "id":3,
             "image":"images/celciusapp.jpg",
             "title":"Celsius Converter Application",
-            "link":"https://github.com/",
+            "link":"https://github.com/sdivakaran143",
             "description":"Developed a Celsius Converter Android application using Android Studio and dependencies, enabling conversion of Celsius to Fahrenheit, Rankine, and Kelvin.",
             "tech":"Android studio and java"
         },
@@ -76,7 +76,7 @@
             "id":4,
             "image": "images/ecom.png",
             "title":"Ecommerce product comparison",
-            "link":"https://github.com/",
+            "link":"https://www.youtube.com/watch?v=I9ZRGtlhwvY",
             "description":"Developed an Ecommerce product comparison application using JavaScript libraries to compare products from Amazon and Flipkart, demonstrating proficiency in web development and data analysis.",
             "tech":"ReactJs , NodeJs ,ExpressJs"
         },{
@@ -91,7 +91,7 @@
             "id":6,
             "image":"images/productpreiwew.png",
             "title":"product preview page",
-            "link":"https://github.com/", 
+            "link":"https://github.com/sdivakaran143", 
             "description":"Designed and developed a product preview page using React, showcasing skills in front-end development and UI/UX design.",
             "tech":"ReactJs"
         },
