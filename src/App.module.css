@@ -281,7 +281,6 @@ div.contactme{
 .changeLogo{
   border: none;
   background-color:var(--black);
-  opacity: 20%;
   outline: none;
   font-size: 20px;
   color: var(--white);
@@ -291,12 +290,11 @@ div.contactme{
   right: 10px;
   top: 10px;
   opacity: 50%;
+  box-shadow: 0px 0px 3px 2px var(--black) ;
 }
 .changeLogo:hover{
-  /* opacity: 100%; */
-  opacity: 90%;
-  box-shadow: 0px 0px 5px 3px var(--black) ;
-  transition: 0.3s;
+  transition: 0.5s;
+  opacity: 100%;
 }
 
 h3 {
