@@ -258,15 +258,11 @@ div.contactme{
 .largebox{
   padding: 13px;
   margin: 5px;
-  height:200px;
-  max-height: 350px;
-  min-width: 70%;
-  max-width: 80%;
+  width: 80vw;
   background: none;
   outline: none;
   border: none;
   color: var(--black);
-
 }
 .contact_contents{
   height:700px;
@@ -815,7 +811,6 @@ mobile devices
   }
   .largebox{
     width: 80vw;
-
     margin: 0px;
   }
   .contact_contents fieldset{

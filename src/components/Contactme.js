@@ -24,7 +24,7 @@ export default function Contactme(){
                 </fieldset>
                 <fieldset>
                     <legend>Message</legend>
-                    <textarea name="freeform" rows="4" cols="50" className={[styles.fullinput,styles.largebox].join(' ')} placeholder="Write a message"></textarea>
+                    <textarea  rows="4" cols="50" className={[styles.fullinput,styles.largebox].join(' ')} placeholder="Write a message"></textarea>
                 </fieldset>
                     <br/>
                     <button disabled="disabled" className={styles.send_button} title="Unavailable currenlty under in Maintanece">Send</button>
