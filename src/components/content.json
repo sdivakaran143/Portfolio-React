@@ -11,31 +11,31 @@
     "certificates":[
         {
             "tittle":"Participated in Online Webinar or Online Training Module Programe on \"STUDENT ENTREPRENEURSHIP AWARENESS PROGRAMME\" conducted by enterpreneurhip development and innovation institute",
-            "link":"/images/studententrepreneurshipprogram.jpg"
+            "link":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/studententrepreneurshipprogram.jpg?raw=true"
         },
         {
             "tittle":"Attended online session on \"Building your first Python project - Personal Chat Assistant\" conducted by Techlearn.",
-            "link":"/images/pythonproject.jpg"
+            "link":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/pythoncourse.jpg?raw=true"
         },
         {
             "tittle":"Certified in \"Python Programming For Beginners\" through Tech Learn online course.",
-            "link":"/images/pythoncourse.jpg"
+            "link":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/pythoncourse.jpg?raw=true"
         },
         {
             "tittle":"Successfully completed an internship [17-12-2021 to 17-1-2022] as a \"Campus leader at Techlearn.live, demonstrating exceptional leadership skills and team management.",
-            "link":"/images/techlearnintern.jpg"
+            "link":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/techlearnintern.jpg?raw=true"
         },
         {
             "tittle":"participated in the Paper Techrix [Cyber security] and Code Debugging events at Horizon'22 in Velalar College of Engineering and Technology.",
-            "link":"/images/VellalarSymposium.png"
+            "link":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/VellalarSymposium.png?raw=true"
         },
         {
             "tittle":"participated in paper presentation [Cyber threats], Code Guru, web designing, and Just a Minute events at Asthra 2022 in  K.S.R. College of Engineering.",
-            "link":"/images/ksrceit.png"
+            "link":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/ksrceit.png?raw=true"
         },
         {
             "tittle":"participation in Learnathon 2022 Organized by ICT Academy during August 2022 - October 2022",
-            "link":"/images/ict2022.jpg"
+            "link":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/ict2022.jpg?raw=true"
         },
         {
             "tittle":"Completed \"The Complete ReactJs Course - Basics to Advanced [2022]\" on Udemy, gaining expertise in ReactJs development.",
@@ -43,7 +43,7 @@
         },
         {
             "tittle":"Participated in inter-college technical fest, Udhayam'23 at KIT-Kalaignarkarunanidhi Institute of Technology, in paper presentation on Ecommerce product comparison and Code Hunters and Code Debugging events.",
-            "link":"/images/kit.png"
+            "link":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/kit.png?raw=true"
         }
     
 ],
@@ -51,14 +51,14 @@
         
         {
             "id":1,
-            "image":"images/vcapi.jpeg",
+            "image":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/vcapi.jpeg?raw=true",
             "title":"Personal voice assistant",
             "link":"https://github.com/sdivakaran143/Python_Bot-Python-Voice-Assistant",
             "description":"Developed a Python-based Personal Voice Assistant enabling Google search functionality and custom command execution.",
             "tech":"Python"
         },{
             "id":2,
-            "image":"images/virtual-resume.png",
+            "image":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/virtual-resume.png?raw=true",
             "title":"Virtual resume",
             "link":"https://sdivakaran143.github.io/Virtual-Resume/",
             "description":"Developed a virtual portfolio using HTML, CSS, and JavaScript to showcase my design and development skills.Implemented responsive design techniques to ensure optimal user experience across various devices.",
@@ -66,7 +66,7 @@
         },
         {
             "id":3,
-            "image":"images/celciusapp.jpg",
+            "image":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/celciusapp.jpg?raw=true",
             "title":"Celsius Converter Application",
             "link":"https://github.com/sdivakaran143",
             "description":"Developed a Celsius Converter Android application using Android Studio and dependencies, enabling conversion of Celsius to Fahrenheit, Rankine, and Kelvin.",
@@ -74,14 +74,14 @@
         },
         {
             "id":4,
-            "image": "images/ecom.png",
+            "image": "https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/ecom.png?raw=true",
             "title":"Ecommerce product comparison",
             "link":"https://www.youtube.com/watch?v=I9ZRGtlhwvY",
             "description":"Developed an Ecommerce product comparison application using JavaScript libraries to compare products from Amazon and Flipkart, demonstrating proficiency in web development and data analysis.",
             "tech":"ReactJs , NodeJs ,ExpressJs"
         },{
             "id":5,
-            "image":"images/portfolio.png",
+            "image":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/portfolio.png?raw=true",
             "title":"Portfolio",
             "link":"https://divakaransenthilkumar.onrender.com/",
             "description":"Developed a responsive personal portfolio using ReactJS to showcase my skills",
@@ -89,7 +89,7 @@
         },
         {
             "id":6,
-            "image":"images/productpreiwew.png",
+            "image":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/productpreiwew.png?raw=true",
             "title":"product preview page",
             "link":"https://github.com/sdivakaran143", 
             "description":"Designed and developed a product preview page using React, showcasing skills in front-end development and UI/UX design.",
@@ -97,7 +97,7 @@
         },
         {
             "id":7,
-            "image":"images/githubprofilechecker.png",
+            "image":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/productpreiwew.png?raw=true",
             "title":"Github Profile Checker",
             "link":"https://githubprofilechecker.onrender.com/",
             "description":"Built a ReactJS app that displays a user's Github details using Github's API.",
