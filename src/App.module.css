@@ -483,7 +483,6 @@ nav{
   font-size: 30px;
   padding: 0px 15px ;
   margin: 0px 20px ;
-  font-weight: 100;
   box-shadow: 1px 1px 6px rgba(245, 245, 220, 0.622);
   border-radius: 100px;
   outline: none;
@@ -553,7 +552,7 @@ nav{
   border-radius: 7px;
   height: 40vh;
   width: 70vh;
-  margin: 6% auto 10px auto;
+  margin: 75px auto 10px auto;
 }
 .hoverindication{
   /* position: absolute;
@@ -849,6 +848,9 @@ mobile devices
     text-decoration: none;
     color: var(--black);
     padding:5px 5px;
+  }
+  .certificateimg{
+    height: 25vh;
   }
   *{
     /* border: 1px solid blue; */

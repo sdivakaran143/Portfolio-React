@@ -3,8 +3,11 @@ import styles from '../App.module.css';
 import React, {useEffect } from 'react';
 import AOS from 'aos';
 import  'aos/dist/aos.css';
-import {FaSchool,FaUniversity,FaPercentage} from "react-icons/fa";
-import {GrNotes} from "react-icons/gr";
+import {FaSchool,FaUniversity} from "react-icons/fa";
+import {CgNotes} from "react-icons/cg";
+import {MdSchool} from "react-icons/md";
+import {PiGraduationCapFill} from "react-icons/pi";
+
 
 const Academics=()=>{
     useEffect(()=>{
@@ -15,27 +18,27 @@ const Academics=()=>{
         <h3 className={styles.subheading}>academics</h3>
         <div className={styles.academic}data-aos="flip-left">
             <div className={[styles.academicdetials,styles.acd1].join(" ")}>
-                <p>2020-2024</p>
+                <p><PiGraduationCapFill/> 2020-2024</p>
                 <div data-aos="fade-left" className={styles.frame}>
                 <FaUniversity/>
                 <p>{detials.academic.college}</p><br/>
-                <span><GrNotes/> {detials.academic.collegepercentage}</span>
+                <span><CgNotes/> {detials.academic.collegepercentage}</span>
                 </div>
             </div>
             <div className={[styles.academicdetials,styles.acd2].join(" ")}>
-                <p>2020</p>
+                <p><MdSchool/> 2020</p>
                 <div data-aos="fade-right" className={styles.frame}>
                 <FaSchool/>
                 <p>{detials.academic.hsc}</p><br/>
-                <span><GrNotes/> {detials.academic.hscpercentage}%</span>
+                <span><CgNotes/> {detials.academic.hscpercentage}%</span>
                 </div>
             </div>
             <div className={[styles.academicdetials,styles.acd3].join(" ")}>
-                <p>2018</p>
+                <p><MdSchool/>2018</p>
                 <div data-aos="fade-left" className={styles.frame}>
                 <FaSchool/>
                 <p>{detials.academic.sslc}</p><br/>
-                <span><GrNotes/> {detials.academic.sslcpercentage}%</span>
+                <span><CgNotes/> {detials.academic.sslcpercentage}%</span>
                 </div>
             </div>
         </div>
