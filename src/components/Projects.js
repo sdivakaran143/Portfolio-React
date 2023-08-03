@@ -11,6 +11,18 @@ export default function Projects(){
     useEffect(()=>{
         AOS.init({duration:500});
     },[]);
+
+    const technologies=(tech)=>{
+        return(
+            <div className={styles.projecttechimagediv}>{
+                (tech).map((techImage,i) => (
+                    <img key={i} className={styles.projecttechimage} src={techImage} alt='projectimage' />
+                ))
+          }
+          </div>
+        )
+    }
+
     const projectcomponents=()=>{
         return(
             <div>
@@ -25,7 +37,7 @@ export default function Projects(){
                     <div style={style} className={styles.project_cards}>
                     <div data-aos="fade-up" key={x.id} className={styles.projectCenterContent}>
                     <div className={styles.imgediv}>       
-                        <img src={x.image} alt="project images" />
+                        <img src={x.image} className={styles.mainimg} alt="project images" />
                         <div className={styles.hoverindication} ><p>Hover to get link</p></div>
 
                        <div className={styles.linkbutton} ><button ><Link target='_blank' to={x.link}><FaLink/></Link><br/></button><p>Github</p></div>
@@ -33,7 +45,7 @@ export default function Projects(){
                     <div className={styles.projectdescription}>
                         <h1 className={styles.captial}><b>{x.title}</b></h1>
                         <p>{x.description}</p>
-                        <p>Technolgy Used : {x.tech}</p>
+                        {technologies(x.tech)}
                     </div>
                     </div>
                     </div>

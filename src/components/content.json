@@ -55,14 +55,14 @@
             "title":"Personal voice assistant",
             "link":"https://github.com/sdivakaran143/Python_Bot-Python-Voice-Assistant",
             "description":"Developed a Python-based Personal Voice Assistant enabling Google search functionality and custom command execution.",
-            "tech":"Python"
+            "tech":["https://cdn-icons-png.flaticon.com/512/5968/5968350.png"]
         },{
             "id":2,
             "image":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/virtual-resume.png?raw=true",
             "title":"Virtual resume",
             "link":"https://sdivakaran143.github.io/Virtual-Resume/",
             "description":"Developed a virtual portfolio using HTML, CSS, and JavaScript to showcase my design and development skills.Implemented responsive design techniques to ensure optimal user experience across various devices.",
-            "tech":"HTML,CSS"
+            "tech":["https://cdn-icons-png.flaticon.com/128/1051/1051277.png","https://cdn-icons-png.flaticon.com/128/732/732190.png"]
         },
         {
             "id":3,
@@ -70,7 +70,7 @@
             "title":"Celsius Converter Application",
             "link":"https://github.com/sdivakaran143",
             "description":"Developed a Celsius Converter Android application using Android Studio and dependencies, enabling conversion of Celsius to Fahrenheit, Rankine, and Kelvin.",
-            "tech":"Android studio and java"
+            "tech":["https://dealicious-inc.github.io/assets/image/posts/2021-08-23-android-studio-plugin-template/androidstudio.png","https://cdn-icons-png.flaticon.com/512/226/226777.png"]
         },
         {
             "id":4,
@@ -78,14 +78,14 @@
             "title":"Ecommerce product comparison",
             "link":"https://www.youtube.com/watch?v=I9ZRGtlhwvY",
             "description":"Developed an Ecommerce product comparison application using JavaScript libraries to compare products from Amazon and Flipkart, demonstrating proficiency in web development and data analysis.",
-            "tech":"ReactJs , NodeJs ,ExpressJs"
+            "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png","https://buttercms.com/static/images/tech_banners/ExpressJS.8587dd0647ca.png","https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png"]
         },{
             "id":5,
             "image":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/portfolio.png?raw=true",
             "title":"Portfolio",
             "link":"https://divakaransenthilkumar.onrender.com/",
             "description":"Developed a responsive personal portfolio using ReactJS to showcase my skills",
-            "tech":"ReactJs"
+            "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png"]
         },
         {
             "id":6,
@@ -93,15 +93,15 @@
             "title":"product preview page",
             "link":"https://github.com/sdivakaran143", 
             "description":"Designed and developed a product preview page using React, showcasing skills in front-end development and UI/UX design.",
-            "tech":"ReactJs"
+            "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png"]
         },
         {
             "id":7,
-            "image":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/productpreiwew.png?raw=true",
+            "image":"https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/githubprofilechecker.png?raw=true",
             "title":"Github Profile Checker",
             "link":"https://githubprofilechecker.onrender.com/",
             "description":"Built a ReactJS app that displays a user's Github details using Github's API.",
-            "tech":"ReactJs , Github API"
+            "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png","https://res.cloudinary.com/practicaldev/image/fetch/s--q1sG-Tx8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/4u07v77746evbyxibmpi.png"]
         }
         
     ],
