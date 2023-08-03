@@ -780,7 +780,10 @@ mobile devices
     /* background: #000; */
   }
   .projectCenterContent .mainimg{
-    width: 100%;
+    /* width: 100%; */
+    max-width: 95%;
+    height: 100%;
+    margin-top: 80px;
   }
   .yes{
     background-color:red
@@ -829,10 +832,13 @@ mobile devices
     border-radius: 8px;
     width:80%;
   }
-  .projecttechimagediv{
+  .projecttechimage{
     /* display:grid; */
-    justify-content:left;
-    overflow: scroll;
+    /* justify-content:left; */
+    max-height: 40px;
+    padding: 0;
+    margin:20px 10px;
+
   }
   .projecttechimagediv::-webkit-scrollbar {
     display: none;
