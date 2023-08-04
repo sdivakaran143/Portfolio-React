@@ -7,7 +7,7 @@ export default function Contactme(){
             <div className={styles.main_content}>
             <form  action="">
                 <fieldset>
-                    <legend>FirstName   </legend>
+                    <legend>FirstName</legend>
                     <input type="text" className={styles.halfinput} placeholder="First Name"/>
                 </fieldset>
                 <fieldset>

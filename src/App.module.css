@@ -807,7 +807,7 @@ nav{
 .copyrightscenter{
   transition: 2s;
   font-size: 8px;
-  text-align: end;
+  text-align: center;
   position: relative;
   top: 80px;
 }
