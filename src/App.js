@@ -26,12 +26,12 @@ function App() {
             </nav>
             <div className={styles.CompleteContent}>
                 <Routes>
-                    <Route path='/' element={<Maincontent/>}/>
-                    <Route path='/Home' element={<Maincontent/>}/>
-                    <Route path='/ContactMe' element={<Contactme/>}/>
-                    <Route path='/SocialMedia' element={<SocialMedias/>}/>
-                    <Route path='/About' element={<About/>}/>
-                    <Route path='/Projects' element={<Projects/>}/>
+                    <Route exact path='/' element={<Maincontent/>}/>
+                    <Route exact path='/Home' element={<Maincontent/>}/>
+                    <Route exact path='/ContactMe' element={<Contactme/>}/>
+                    <Route exact path='/SocialMedia' element={<SocialMedias/>}/>
+                    <Route exact path='/About' element={<About/>}/>
+                    <Route exact path='/Projects' element={<Projects/>}/>
                 </Routes>
             </div>
             <footer>
