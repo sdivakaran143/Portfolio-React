@@ -15,7 +15,7 @@ const Academics=()=>{
     },[]);
     return(
         <div className={styles.thisisblock} >
-        <h3 className={styles.subheading}>academics</h3>
+        <h3 className={styles.subheading}>Academics</h3>
         <div className={styles.academic}data-aos="flip-left">
             <div className={[styles.academicdetials,styles.acd1].join(" ")}>
                 <p><PiGraduationCapFill/> 2020-2024</p>
@@ -49,7 +49,7 @@ const Introductions =()=>{
     return(
         <div className={styles.introductionheight}>
             <div data-aos="fade-in" className={styles.introduction} >
-                <h3 className={styles.subheading}>introduction my self</h3><br/>
+                <h3 className={styles.subheading}>My Self</h3><br/>
             <div>
             <div className={styles.image}></div>
                 <p className={styles.introductioncontent}>{detials.intro}</p>

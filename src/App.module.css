@@ -200,11 +200,7 @@ margin: 0px 0px 0px 15px;
   background-color:rgb(53, 52, 52);
   border:1px solid var(--white);
 }
-div.main_socialmedias{
-  /* background-color: transparent; */
-  position: relative;
-  top: 45%;
-}
+
 div.contactme{
   /* background-color: aquamarine; */
   position: relative;
@@ -292,7 +288,9 @@ div.contactme{
   transition: 0.5s;
   opacity: 100%;
 }
-
+h6{
+  text-align: center;
+}
 h3 {
   /* background: #000; */
   /* color: white; */
@@ -342,12 +340,15 @@ nav{
 
 /* -----------------------------------subcomponent js ----------------------------------------------- */
 .academic{
-  margin: 30px auto;
+  margin: 0px auto;
   font-size: 13px;
   display: grid;
   text-align: center;
-  width: 80%;
+  width: 85%;
   grid-template-columns: repeat(2,50%);
+}
+.thisisblock .subheading{
+  margin-top: 15px;
 }
 .academicdetials{
   word-wrap: break-word;
@@ -447,7 +448,7 @@ nav{
   margin:  1px auto;
 
 } 
-/* -----------------------------------gabout js( certificate ) ----------------------------------------------- */
+/* -----------------------------------about js( certificate ) ----------------------------------------------- */
 .subheading{
   background: var(--black);
   color:var(--white);
@@ -521,13 +522,68 @@ nav{
   background: #000;
   border: 2px solid green;
 }
-
+.buttonlinkdiv{
+  text-align: center;
+}
 .buttonlink{
   text-decoration: none;
   color: var(--white);
   background: var(--black);
-  padding: 5px 8px 5px 8px;
-  border-radius: 5px;
+  padding: 6px 9px 6px 9px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px var(--black);
+}
+.galleryview{
+  display: flex;
+  flex-direction: column;
+  padding :100px;
+}
+.gallaryviewCards{
+  color: var(--black);
+  background: var(--backshade);
+  display: flex;
+  height: 40vh;
+  border-radius: 20px;
+  margin:40px auto;
+}
+.gallaryviewCards .lftbox{
+  height: inherit;
+  background:var(--backshade);
+  width: inherit;
+}
+
+.gallaryviewCards .rytbox{
+  height: inherit;
+}
+.lftbox .image{
+  height: 40vh;
+  border-radius: 20px 0px 0px 20px;
+}
+.rytbox h3{
+  margin: 30px;
+}
+.rytbox h2{
+  margin: 40px auto;
+}
+.rytbox p{
+  margin: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.gallaryviewCards:last-child{
+  height: inherit;
+}
+.ContactCard{
+  height: 20vh;
+  width :25vw;
+  background-color: var(--black);
+  margin: 20px;
+  padding: 20px;
+}
+.gallerycardContactme{
+  background: #000;
+  border-radius: 20px;
+  /* background: var(--backshade); */
 }
 
 /* -----------------------------------Project js ----------------------------------------------- */
@@ -577,15 +633,13 @@ nav{
   filter: blur(2px);
 }
 .linkbutton{
-  /* margin: 20px; */
   position: absolute;
-  top: 35%;
-  left: 48%;
-  visibility: hidden;
-
+  top: 30%;
+  left: 46%;
+  display:none;
 }
 .imgediv:hover .linkbutton{
-  visibility: visible;
+  display: block;
 }
 .linkbutton button{
   padding:18px 18px 15px 18px;
@@ -727,11 +781,52 @@ nav{
   transition: 0.2s;
   scale: 1.5;
 }
+/* -------------------------------------------------footer-------------------------------------------- */
+/* *{border: 1px solid red;} */
+.NameplateFooter{
+  height: 40vh;
+  padding: 10px;
+  background:var(--backshade);
+  text-align: center;
+}
+.NamePlate{
+  margin: 10vh;
+}
+.NamePlateSocialMediaicon{
+  color: var(--black);
+  /* padding: 20px; */
+  margin: 3%;
+}
+.copyrights{
+  font-size: 10px;
+  position: absolute;
+  right: 4px;
+  text-align: end;
+  margin: 10px;
+}
+.copyrightscenter{
+  transition: 2s;
+  font-size: 8px;
+  text-align: end;
+  position: relative;
+  top: 80px;
+}
+div.main_socialmedias{
+  position: relative;
+  top: 35px;
+  /* position: relative; */
+  /* top: 45%; */
+}
+
+
+
+
 
 /*
 mobile devices
 */
 @media screen and (max-width:878px) {
+
 /* @media screen and (max-width:500px) { */
   .tittle {
     font-size: 2vh;
@@ -750,6 +845,7 @@ mobile devices
     display: none;
   }
   .academic{
+    width: 95%;
     display: inline;
     position: static;
   }
@@ -789,8 +885,8 @@ mobile devices
   }
 
   .linkbutton{
-    top: 25%;
-    left: 44%;
+    top: 31%;
+    left:40%
   }
   .getintouch{
     visibility: hidden;
@@ -842,6 +938,41 @@ mobile devices
   .projecttechimagediv::-webkit-scrollbar {
     display: none;
   }
+  .copyrights{
+    font-size: 5px;
+    right: -3px;
+    margin-top: 15px;
+  }
+  .copyrightscenter{
+    text-align: center;
+    }
+  .galleryview{
+    transition: 2s;
+    padding :5px;
+  }
+  .gallaryviewCards{
+    display: block; 
+    height: inherit;
+  }
+  .gallaryviewCards .lftbox{
+    margin: 0px auto;
+    width:min-content;
+    padding: 20px;
+  }
+  .rytbox h3{
+    margin:5px;
+  }
+  .rytbox h2{
+    margin: 40px auto;
+  }
+  .lftbox .image{
+    height: 30vh;
+    border-radius:10px 50px 10px;
+  }
+  .rytbox p{
+    text-align: justify;
+  }
+  
 }
 @media screen and (max-width:330px) {
   .navmain .link{
@@ -852,6 +983,16 @@ mobile devices
   .certificateimg{
     height: 25vh;
   }
+  .copyrights{
+    font-size: 4px;
+    right: -3px;
+    margin-top: 15px;
+  }
+  .NamePlateSocialMediaicon{
+    margin: 2%;
+    padding: 3px;
+  }
+  
   *{
     /* border: 1px solid blue; */
   }

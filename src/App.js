@@ -2,9 +2,9 @@ import React, { useState,useEffect } from 'react';
 import styles from './App.module.css';
 import Navigationbar from './components/Navigationbar';
 import Maincontent from './components/Maincontent';
-import Footer from './components/Footer';
 import Contactme from './components/Contactme';
 import SocialMedias from './components/SocialMedia';
+import {Footer,NameplateFooter} from './components/Footer';
 import {Routes,Route,useLocation} from 'react-router-dom';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -12,8 +12,9 @@ function App() {
     const [theme,settheme] = useState(localStorage.getItem("Theme")==="Dark"?"Light" :"Dark");
     const location = useLocation();
     useEffect(() => {
-        window.scrollTo(0, 0); // Scroll to top on route change
+        window.scrollTo(0, 0);
       }, [location]);    
+      
     function changetheme(){
         (theme!=="Light")?settheme("Light"):settheme("Dark");
         localStorage.setItem("Theme", theme);
@@ -34,7 +35,7 @@ function App() {
                 </Routes>
             </div>
             <footer>
-            <Footer/>
+            {(location.pathname==="/"||location.pathname==="/Home")?<NameplateFooter/>:<Footer/>}
             </footer>
         </div>
     );

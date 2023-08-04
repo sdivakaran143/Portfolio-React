@@ -1,9 +1,8 @@
 import styles from '../App.module.css';
-import React, { useEffect } from 'react';
 import AOS from 'aos';
 import  'aos/dist/aos.css'
+import React, { useEffect } from 'react';
 import {Link} from "react-router-dom";
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 export default function Galleryview(){
     useEffect(()=>{
@@ -11,71 +10,37 @@ export default function Galleryview(){
     },[]);
         return(
             <div>
-                <div className={styles.gallery}>
-                    {/* <div className={[styles.galleryphoto,styles.photo1].join(" ")}></div>
-                    <div className={[styles.galleryphoto,styles.photo2].join(" ")}></div>
-                    <div className={[styles.galleryphoto,styles.photo3].join(" ")}></div>
-                    <div className={[styles.galleryphoto,styles.photo4].join(" ")}></div>
-                    <div className={[styles.galleryphoto,styles.photo5].join(" ")}></div> */}
-                    <VerticalTimeline>
-                            <VerticalTimelineElement
-                                className="vertical-timeline-element--work"
-                                contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                                date="WARM WELCOMES YOU..."
-                                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                                icon=""
-                            >
-                                <h3 className="vertical-timeline-element-title">Hello!..</h3>
-                                {/* <h4 className="vertical-timeline-element-subtitle">I'ts Divakaran Senthilkumar </h4> */}
-                                <p>I'ts Divakaran Senthilkumar </p>
-                                <br/>
-                                <center><img src="https://www.desicomments.com/wp-content/uploads/2017/07/Hello.gif"  alt="funny GIF"height="200px" width="200px"/></center>
+                <div className={styles.galleryview}>
+                    <div className={styles.gallaryviewCards} data-aos="fade-up">
+                        <div className={styles.lftbox}>
+                            <img className={styles.image}src='https://github.com/sdivakaran143/Portfolio-React/blob/master/public/images/mine.jpg?raw=true' alt="Imageofdivakaran" />
+                        </div>
+                        <div className={styles.rytbox}>
+                            <h3>Hai I'm  Divakaran Senthilkumar</h3>
+                            <p>I am a skilled web developer with expertise in ReactJS, a popular JavaScript library for building user interfaces. With a passion for creating interactive and dynamic web applications, I strive to deliver exceptional user experiences. Let's collaborate to bring your digital ideas to life!</p>
+                            <div className={styles.buttonlinkdiv}><Link className={styles.buttonlink} to="/About">Know About Me!</Link></div>
+                        </div>
+                    </div>
 
-                                
-                            </VerticalTimelineElement>
-                            <VerticalTimelineElement
-                                className="vertical-timeline-element--work"
-                                date=" KNOW ABOUT ME"
-                                contentStyle={{ background: 'rgba(13, 13, 13, 0.473)', color: '#fff' }}
-                                iconStyle={{ background: 'pink', color: '#fff' }}
-                                icon=""
-                            >
-                                <h3 className="vertical-timeline-element-title">me!</h3>
-                                <p>
-                                    <p>Iam Currently Pursuing My Bacholr's Degree At K.S.R. College of Enginnering in The Branch of "Computer Science And Engineering"</p>
-                                </p>
-                                <br/><Link className={styles.buttonlink} to="/About">Click For More</Link><br/>
-                            </VerticalTimelineElement>
-                            <VerticalTimelineElement
-                                className="vertical-timeline-element--work. messagebox"
-                                date="PROJECTS AND WORKS"
-                                contentStyle={{ background: 'rgba(13, 13, 13, 0.473)', color: '#fff' }}
-                                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                                icon=""
-                                >
-                                <h3 className="vertical-timeline-element-title">Projects</h3>
-                                {/* <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4> */}
-                                <p>
-                                "Get ready to dive into my academic project and witness some mind-blowing stuff! I've cracked open tough problems, uncovered wicked solutions, and made a real splash in the field. Join me on this epic ride as I show you the game-changing impact of my work. It's gonna blow your mind, so buckle up and let's get exploring!"
-                                </p>
-                                <br/><Link className={styles.buttonlink} to="/Projects">Explore It</Link><br/>
-                            </VerticalTimelineElement>
-                            <VerticalTimelineElement
-                                className="vertical-timeline-element--education"
-                                date="GET IN TOUCH WITH ME"
-                                contentStyle={{ background: 'rgba(13, 13, 13, 0.473)', color: '#fff' }}
-                                iconStyle={{ background: 'pink', color: '#fff' }}
-                                icon=""
-                            >
-                                <h3 className="vertical-timeline-element-title">Contact me</h3>
-                                {/* <h4 className="vertical-timeline-element-subtitle"></h4> */}
-                                <p>
-                                "Click now to connect with me and let's start unraveling the fascinating details together. Whether you're curious, have questions, or simply want to explore further, don't hesitate to reach out. Get in touch and let's embark on an unforgettable intellectual adventure!"
-                                </p>
-                                <br/><Link className={styles.buttonlink} to="/SocialMedia">Get In Touch</Link><br/>
-                            </VerticalTimelineElement>
-                    </VerticalTimeline>
+                    <div className={styles.gallaryviewCards} data-aos="fade-up">
+                        <div className={styles.rytbox}>
+                            <p><h2>&lt;Projects/&gt;</h2>Get ready to dive into my academic project and witness some mind-blowing stuff! I've cracked open tough problems, uncovered wicked solutions, and made a real splash in the field. Join me on this epic ride as I show you the game-changing impact of my work. It's gonna blow your mind, so buckle up and let's get exploring!</p>
+                            <div className={styles.buttonlinkdiv}><Link className={styles.buttonlink} to="/About">Explore My Projects</Link></div>
+                        </div>
+                    </div>
+                    
+                    <div className={styles.gallaryviewCards} data-aos="fade-up">
+                        <div className={styles.lftbox} >
+                            <div className={styles.ContactCard}>
+                            </div>
+                            <div className={styles.ContactCard}>
+                            </div>
+                        </div>
+                        <div className={styles.rytbox}>
+                            <p><h2>&lt;ContactMe/&gt;</h2>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
                 </div>
                 
             </div>
