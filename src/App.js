@@ -21,21 +21,22 @@ function App() {
     }
     return(
         <div className={styles.App} data-theme={theme} >
+            <span id='Intro'/>
             <nav className={styles.navbar}>
                 <Navigationbar changetheme={changetheme} />
             </nav>
             <div className={styles.CompleteContent}>
                 <Routes>
                     <Route exact path='/' element={<Maincontent/>}/>
-                    <Route exact path='/Home' element={<Maincontent/>}/>
-                    <Route exact path='/ContactMe' element={<Contactme/>}/>
-                    <Route exact path='/SocialMedia' element={<SocialMedias/>}/>
-                    <Route exact path='/About' element={<About/>}/>
-                    <Route exact path='/Projects' element={<Projects/>}/>
+                    <Route exact path='/home' element={<Maincontent/>}/>
+                    <Route exact path='/contactme' element={<Contactme/>}/>
+                    <Route exact path='/socialmedia' element={<SocialMedias/>}/>
+                    <Route exact path='/about' element={<About/>}/>
+                    <Route exact path='/projects' element={<Projects/>}/>
                 </Routes>
             </div>
             <footer>
-            {(location.pathname==="/"||location.pathname==="/Home")?<NameplateFooter/>:<Footer/>}
+            {(location.pathname==="/"||location.pathname==="/home")?<NameplateFooter/>:<Footer/>}
             </footer>
         </div>
     );

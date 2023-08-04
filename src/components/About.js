@@ -28,7 +28,6 @@ export default function About(){
     }
         return(
             <div>
-                <span id='Intro'/>
                 <Intro/>
                 <span id='Academics'/>
                 <Academics/>
