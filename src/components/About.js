@@ -13,7 +13,7 @@ export default function About(){
         AOS.init({duration:2000});
     },[]);
 
-    const navigatebar=()=>{
+    const sidenavigatebar=()=>{
         // console.log("navigatebar");
         return (
             <div className={styles.sidenavigationbar}>
@@ -35,7 +35,7 @@ export default function About(){
                 <Myskills/>
                 <span id='Certificates'/>
                 <Certificates/>
-                {navigatebar()}
+                {sidenavigatebar()}
             </div>
         );
 

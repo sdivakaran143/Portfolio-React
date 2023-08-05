@@ -19,7 +19,7 @@ const Academics=()=>{
         <div className={styles.academic}data-aos="flip-left">
             <div className={[styles.academicdetials,styles.acd1].join(" ")}>
                 <p><PiGraduationCapFill/> 2020-2024</p>
-                <div data-aos="fade-left" className={styles.frame}>
+                <div className={styles.frame}>
                 <FaUniversity/>
                 <p>{detials.academic.college}</p><br/>
                 <span><CgNotes/> {detials.academic.collegepercentage}</span>
@@ -27,7 +27,7 @@ const Academics=()=>{
             </div>
             <div className={[styles.academicdetials,styles.acd2].join(" ")}>
                 <p><MdSchool/> 2020</p>
-                <div data-aos="fade-right" className={styles.frame}>
+                <div className={styles.frame}>
                 <FaSchool/>
                 <p>{detials.academic.hsc}</p><br/>
                 <span><CgNotes/> {detials.academic.hscpercentage}%</span>
@@ -35,7 +35,7 @@ const Academics=()=>{
             </div>
             <div className={[styles.academicdetials,styles.acd3].join(" ")}>
                 <p><MdSchool/>2018</p>
-                <div data-aos="fade-left" className={styles.frame}>
+                <div className={styles.frame}>
                 <FaSchool/>
                 <p>{detials.academic.sslc}</p><br/>
                 <span><CgNotes/> {detials.academic.sslcpercentage}%</span>

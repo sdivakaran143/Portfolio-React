@@ -26,7 +26,7 @@ const NameplateFooter=()=>{
         <div className={styles.NameplateFooter}>
             <div className={styles.NamePlate}>
                 <h6>Developed By</h6>
-                <h3>DivakaranSethilkumar</h3>
+                <h3>Divakaran_Senthilkumar</h3>
             </div>
             <div>
 
@@ -42,7 +42,7 @@ const NameplateFooter=()=>{
                 <a className={styles.NamePlateSocialMediaicon} title="mail" href="mailto:divakarancse2020@ksrce.ac.in?bcc=sdivakaran683@gmail.com&subject=For%20Connection%20&body=Hai%20Iam%20%3CYour%20Name%3E!..."><SiMinutemailer/></a>
             </div>
             <div className={styles.copyrightscenter}>
-            © Copyright 2023, All Rights Reserved  |  DivakaranSenthilkumar
+            © Copyright 2023, All Rights Reserved  |  Divakaran Senthilkumar
             </div>
         </div>
     )
