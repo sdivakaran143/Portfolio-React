@@ -610,7 +610,7 @@ nav{
 }
 .ContactCard .ContactCardinfos{
   text-decoration: none;
-  color: var(--white);
+  color: var(--trueblack);
   text-align:center;
   margin-top: 25px;
 }
@@ -850,10 +850,114 @@ div.main_socialmedias{
   /* position: relative; */
   /* top: 45%; */
 }
+/* -------------------------------------------------loading PAge-------------------------------------------- */
+.body {
+  background: var(--black);
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+}
+.vanakkam{
+  margin-top: 15px;
+  font-size: 50px;
+}
+.welcome{
+  /* color:  #d37236; */
+  color:  var(--white);
+  text-shadow:10px 8px 10px #000;
+  font-variant: small-caps;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  animation: apper 5s ;
+  width: 100%;
+  position: fixed;
+  bottom: 10vh;
+}
+@keyframes apper {
+  0% {
+    opacity: 0;
+  }
+  33.33% {
+    opacity: 0;
+  }
+  66.66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 
+.centerBike {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 26px;
+  margin-left: -12px;
+}
 
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
 
+.loop {
+  height: 100px;
+  width: 100px;
+  /* border: #bb5f27 solid 4px; */
+  border: var(--white) solid 4px;
+  border-radius: 200px;
+}
+
+.loop:before {
+  background: linear-gradient(to left, rgba(187, 95, 39, 0) 0%,var(--white), var(--white) 70%, rgba(187, 95, 39, 0) 100%);
+  content: "";
+  display: block;
+  height: 4px;
+  left: -100px;
+  position: relative;
+  top: 100px;
+  width: 300px;
+}
+
+.bikeWrapper {
+  height: 108px;
+  width: 108px;
+  animation: drive 5s linear;
+}
+
+.bike {
+  height: 24px;
+  width: 25px;  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/133687/motorbike.png");
+  /* -webkit-filter: invert(90%); filter: invert(90%); */
+  filter: brightness(0) invert(1);
+
+}
+
+@keyframes drive {
+  0% {
+    margin-left: -364px;
+    opacity: 0;
+  }
+  33.33% {
+    transform: rotate(0deg);
+    margin-left: -50px;
+    opacity: 1;
+  }
+  66.66% {
+    transform: rotate(-360deg);
+    margin-left: -50px;
+    opacity: 1;
+  }
+  100% {
+    margin-left: 220px;
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+}
 
 /*
 mobile devices
@@ -1023,6 +1127,9 @@ mobile devices
     min-width: 70vw;
     max-width: 70vw;
   }
+  /* .welcome{
+    left: 39.5%;  
+  } */
   
 }
 @media screen and (max-width:330px) {

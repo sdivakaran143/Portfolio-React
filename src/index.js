@@ -1,14 +1,22 @@
-import React from 'react';
+import React,{useState} from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter} from 'react-router-dom';
+import LoadingWindow from './components/LoadingWindow';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const MainWindow=()=>{
+  const[isloading,setloading]=useState(true);
+  setInterval(()=>{
+    setloading(false)
+  },5000)
+  return (isloading)?<LoadingWindow/>:<App/>
+}
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <MainWindow/>
     </BrowserRouter>
   </React.StrictMode>
 );
