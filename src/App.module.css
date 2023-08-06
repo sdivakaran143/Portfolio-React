@@ -1146,7 +1146,7 @@ mobile devices
       opacity: 1;
     }
     100% {
-      margin-left: 80px;
+      margin-left: 78px;
       transform: rotate(-360deg);
       opacity: 0;
     }
