@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const MainWindow=()=>{
   const[isloading,setloading]=useState(true);
   setInterval(()=>{
-    // setloading(false)
+    setloading(false)
   },5000)
   return (isloading)?<LoadingWindow/>:<App/>
 }
