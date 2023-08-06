@@ -10,8 +10,10 @@ const MainWindow=()=>{
   const[isloading,setloading]=useState(true);
   setInterval(()=>{
     setloading(false)
+    console.log(sessionStorage.getItem("isalive"));
+    sessionStorage.setItem("isalive","true");
   },5000)
-  return (isloading)?<LoadingWindow/>:<App/>
+  return (isloading&&sessionStorage.getItem("isalive")!="true")?<LoadingWindow/>:<App/>
 }
 root.render(
   <React.StrictMode>
