@@ -89,7 +89,7 @@ nav {
   word-wrap: break-word;
 }
 .content_socialmedia{
-  height: 500px;
+  height:51.8vh;
 
 }
 .content{
@@ -856,6 +856,7 @@ div.main_socialmedias{
   text-align: center;
   overflow: hidden;
   height: 100vh;
+  max-width: 100%;
 }
 .vanakkam{
   margin-top: 15px;
@@ -953,12 +954,11 @@ div.main_socialmedias{
     opacity: 1;
   }
   100% {
-    margin-left: 220px;
+    margin-left: 264px;
     transform: rotate(-360deg);
     opacity: 0;
   }
 }
-
 /*
 mobile devices
 */
@@ -1050,7 +1050,7 @@ mobile devices
   .content_socialmedia{
     padding:0px;
     margin-top: 43% ;
-    height:50vh;
+    height:51vh;
   }
   .main_content input{
     padding: 13px;
@@ -1130,6 +1130,27 @@ mobile devices
   /* .welcome{
     left: 39.5%;  
   } */
+  @keyframes drive {
+    0% {
+      margin-left: -190px;
+      opacity: 0;
+    }
+    33.33% {
+      transform: rotate(0deg);
+      margin-left: -50px;
+      opacity: 1;
+    }
+    66.66% {
+      transform: rotate(-360deg);
+      margin-left: -50px;
+      opacity: 1;
+    }
+    100% {
+      margin-left: 80px;
+      transform: rotate(-360deg);
+      opacity: 0;
+    }
+  }
   
 }
 @media screen and (max-width:330px) {
