@@ -1,7 +1,10 @@
 import styles from '../App.module.css';
-import React from 'react';
+import React,{useEffect} from 'react';
 import {PiHandsPrayingDuotone} from "react-icons/pi"
 export default function LoadingWindow(){
+    useEffect(()=>{        
+        console.log("Welcome,Developer👋!..\nThe console's door is open, and innovation awaits.");
+    },[])
     return(
         <div  className={styles.body}>
         <div  className={[styles.center,styles.loop].join(' ')}></div>
