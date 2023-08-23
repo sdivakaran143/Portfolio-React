@@ -103,9 +103,9 @@
             "id":7,
             "image":"https://i.ibb.co/864NGVx/githubprofilechecker.png",
             "title":"Github Profile Checker",
-            "link":"https://githubprofilechecker.onrender.com/",
+            "link":"https://githubprofilechecker.onrender.com/"
             "description":"Built a ReactJS app that displays a user's Github details using Github's API.",
-            "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png","https://res.cloudinary.com/practicaldev/image/fetch/s--q1sG-Tx8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/4u07v77746evbyxibmpi.png"]
+            "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png","https://dev-to-uploads.s3.amazonaws.com/i/4u07v77746evbyxibmpi.png"]
         }
         
     ],
