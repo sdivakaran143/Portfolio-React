@@ -95,15 +95,15 @@
             "id":6,
             "image":"https://i.ibb.co/4V28Fsw/productpreiwew.png",
             "title":"product preview page",
-            "link":"https://github.com/sdivakaran143", 
+            "link":"https://sampleproductpreview.onrender.com/", 
             "description":"Designed and developed a product preview page using React, showcasing skills in front-end development and UI/UX design.",
             "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png"]
         },
         {
             "id":7,
-            "image":"https://i.ibb.co/864NGVx/githubprofilechecker.png",
+            "image":"https://i.ibb.co/xhknczj/Screenshot-380.png",
             "title":"Github Profile Checker",
-            "link":"https://githubprofilechecker.onrender.com/"
+            "link":"https://githubprofilechecker.onrender.com/",
             "description":"Built a ReactJS app that displays a user's Github details using Github's API.",
             "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png","https://dev-to-uploads.s3.amazonaws.com/i/4u07v77746evbyxibmpi.png"]
         }
@@ -112,7 +112,7 @@
     "skills":[
         {
             "id":1,
-            "skill":"C",
+            "skill":"C(basic)",
             "icon":"https://cdn.iconscout.com/icon/free/png-512/c-programming-569564.png"
         },
         {
