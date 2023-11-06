@@ -88,10 +88,6 @@ nav {
 .contentcont{
   word-wrap: break-word;
 }
-.content_socialmedia{
-  height:51.8vh;
-
-}
 .content{
   display: flex;
   align-items: center;
@@ -130,23 +126,14 @@ a img{
   height: 25px;
 }
 .content_socialmedia{
-  padding-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 77vh;
 }
 .socialmedias{
   padding: 50px 15px 0px 15px;
-}
-.fixedmatter{
-  position: fixed;
-  bottom: 5%;
-  right: 3%;
-  cursor: pointer;
-  background-color: var(--black);
-  padding:10px 10px 5px 7px;
-  font-size: 30px;
-  border-radius: 25px 15px 25px 15px;
-}
-.fixedmatter >a{
-  color: var(--white);
 }
 .socialmedias a{
   font-size: 20px;
@@ -156,7 +143,6 @@ a img{
   border-radius: 30px 30px 30px 30px ;
   color: var(--white);
   border: 1px solid var(--white);
-  /* padding-bottom: 80px; */
 }
 .socialmedias a:hover{
   background-color: var(--white);
@@ -430,36 +416,37 @@ nav{
 
 /* -----------------------------------about js ----------------------------------------------- */
 .introductionheight{
-  height:85vh;
+  height:80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .introduction{
-  height:fit-content;
-  width: 85%;
-  padding: 20px 0px 0px 0px;
+  height: fit-content;
+  width: 78vw;
+  padding: 10px 0px 0px 0px;
   margin: 0px auto;
   background:var(--backshade);
   text-align: center;
+  gap: 5px;
   border-radius: 40px;
   box-shadow: 1px 2px 5px rgba(91, 90, 90, 0.277);
 }
-.introduction div{
-  margin: 5px;
-}
 
 .introductioncontent{
-  width: 95%;
+  width: 90%;
   line-height: 27px;
   padding: 30px 20px;
-  margin: 10px;
-  /* width:50%; */
+  margin: 10px auto;
 }
 .introduction .image{
-  width: 200px;
-  height: 200px;
-  border-radius: 500px;
-   background:url("https://i.ibb.co/LzfQpV1/2013021-DIVAKARAN-S.jpg") no-repeat 0px -10px ;
-   background-size:cover;
-  margin:  1px auto;
+  width: 220px;
+  height: 220px;
+  border-radius: 100px;
+  background:url("https://i.ibb.co/LzfQpV1/2013021-DIVAKARAN-S.jpg") no-repeat 0px -10px ;
+  background-size:cover;
+  margin:  0px auto;
 
 } 
 /* -----------------------------------about js( certificate ) ----------------------------------------------- */
@@ -551,7 +538,10 @@ nav{
 .galleryview{
   display: flex;
   flex-direction: column;
-  padding :100px 200px;
+  gap: 50px;
+  width: 70%;
+  margin: 0px auto;
+  padding:100px 0px;
 }
 .gallaryviewCards{
   color: var(--black);
@@ -559,33 +549,37 @@ nav{
   display: flex;
   height: 40vh;
   border-radius: 20px;
-  margin:100px auto;
-}
-.gallaryviewCards .lftbox{
-  height: inherit;
-  width: inherit;
+  margin:10px auto;
+  padding: 10px;
 }
 
 .gallaryviewCards .rytbox{
-  height: inherit;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
 }
 .lftbox .image{
   height: 40vh;
   border-radius: 20px 0px 0px 20px;
 }
 .rytbox h3{
-  margin: 30px;
+  padding: 10px;
+  margin: 0px;
 }
 .rytbox h2{
-  margin: 25px auto;
+  padding: 0px;
+  margin: 0px auto;
 }
 .rytbox p{
-  margin: 20px;
+  margin: 0px;
   line-height: 30px;
   text-align: center;
 }
 .gallaryviewCards:last-child{
-  height:inherit;
+  padding: 0px;
   background:transparent;
   display:flex;
 }
@@ -607,16 +601,18 @@ nav{
   color: black;
   line-height: 30px;
   margin:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .ContactCard .ContactCardinfos{
   text-decoration: none;
   color: var(--trueblack);
   text-align:center;
-  margin-top: 25px;
 }
 .gallerycardContactme{
   border-radius: 20px;
-  /* background: var(--backshade); */
+  background: #000;
 }
 
 /* -----------------------------------Project js ----------------------------------------------- */
@@ -631,7 +627,7 @@ nav{
   box-shadow:0px 0px 15px rgba(0, 0, 0, 0.128);
 }
 .project_cards:last-child{
-  height: 85vh;
+  height: 88vh;
 }
 .projectCenterContent:only-child{
     text-align: center;
@@ -641,7 +637,7 @@ nav{
   border-radius: 7px;
   height: 40vh;
   width: 70vh;
-  margin: 75px auto 10px auto;
+  margin: 10px;
 }
 .hoverindication{
   /* position: absolute;
@@ -653,48 +649,59 @@ nav{
 }
 .projectdescription{
   padding: 20px;
+  height: 40vh;
 }
 .projectdescription p{
   padding: 10px;
+  margin: 5px;
 }
 .imgediv{
-  display: inline;
+  height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
-.imgediv:hover .mainimg{
+.imageandlink:hover .mainimg{
   opacity: 80%;
   transition: 0.5s;
   filter: blur(2px);
 }
-.linkbutton{
-  position: absolute;
-  top: 30%;
-  left: 46%;
-  display:none;
-}
-.imgediv:hover .linkbutton{
-  display: block;
-}
-.linkbutton button{
-  padding:18px 18px 15px 18px;
-  font-size:10px;
-  background: #ffffffa9;
-  border-radius: 100px;
-  border: none;
-  font-size: large;
-}
-.linkbutton p{
-  padding: 10px;
-  text-shadow: 1px 1px 0px black;
-  /* background: #000; */
-}
-.projecttechimagediv{
+.imageandlink{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.imageandlink .linkbuttons{
+  position: absolute;
+  display: flex;
+  gap: 10px;
+}
+.imageandlink button{
+  display: none;
+  padding: 10px;
+  border: 2px solid rgb(77, 77, 77);
+  background:rgb(255, 255, 255);
+}
+.imageandlink button{
+  font-size: small;
+  font-weight: 900;
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+.imageandlink:hover button{
+  display: block;
+}
+.projecttechimagediv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* overflow: scroll; */
+}
 .projecttechimage{
   height: 70px;
-  /* width: 70px; */
   padding: 10px;
   margin: 20px;
 }
@@ -1014,8 +1021,8 @@ mobile devices
   .projectCenterContent .mainimg{
     /* width: 100%; */
     max-width: 95%;
-    height: 100%;
-    margin-top: 80px;
+    height: 35vh;
+    /* margin-top: 80px; */
   }
   .yes{
     background-color:red
@@ -1046,11 +1053,6 @@ mobile devices
   }
   .footer{
     height: 83px;
-  }
-  .content_socialmedia{
-    padding:0px;
-    margin-top: 43% ;
-    height:51vh;
   }
   .main_content input{
     padding: 13px;
@@ -1084,13 +1086,14 @@ mobile devices
     text-align: center;
     }
   .galleryview{
-    /* transition: 2s; */
-    padding :5px;
-  }
+      gap: 20px;
+      width: 90%;
+    }
   .gallaryviewCards{
     display: block; 
     height: inherit;
   }
+
   .gallaryviewCards .lftbox{
     margin: 0px auto;
     width:min-content;

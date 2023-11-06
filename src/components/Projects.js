@@ -37,11 +37,15 @@ export default function Projects(){
                     <div style={style} className={styles.project_cards}>
                     <div data-aos="fade-up" key={x.id} className={styles.projectCenterContent}>
                     <div className={styles.imgediv}>       
-                        <img src={x.image} className={styles.mainimg} alt="project images" />
-                        <div className={styles.hoverindication} ><p>Hover to get link</p></div>
-
-                       <div className={styles.linkbutton} ><button ><Link target='_blank' to={x.link}><FaLink/></Link><br/></button><p>Github</p></div>
+                        <div className={styles.imageandlink} >
+                            <img src={x.image} className={styles.mainimg} alt="project images" />
+                            <div className={styles.linkbuttons}>
+                                {(x.livelink)?(<Link target='_blank' to={x.livelink}><button ><FaLink/> Live</button></Link>):""}
+                                {(x.repolink)?(<Link target='_blank' to={x.repolink}><button ><FaLink/> Github</button></Link>):""}
+                            </div>
+                        </div>
                     </div>
+                        <div className={styles.hoverindication} ><p>Hover to get link</p></div>
                     <div className={styles.projectdescription}>
                         <h1 className={styles.captial}><b>{x.title}</b></h1>
                         <p>{x.description}</p>

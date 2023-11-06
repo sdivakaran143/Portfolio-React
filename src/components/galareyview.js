@@ -28,7 +28,7 @@ export default function Galleryview(){
 
                     <div className={styles.gallaryviewCards} data-aos="zoom-in-down">
                         <div className={styles.rytbox}>
-                            <p><h2>&lt;Projects/&gt;</h2>Get ready to dive into my academic project and witness some mind-blowing stuff! I've cracked open tough problems, uncovered wicked solutions, and made a real splash in the field. Join me on this epic ride as I show you the game-changing impact of my work. It's gonna blow your mind, so buckle up and let's get exploring!</p>
+                            <h2>&lt;Projects/&gt;</h2><p>Get ready to dive into my academic project and witness some mind-blowing stuff! I've cracked open tough problems, uncovered wicked solutions, and made a real splash in the field. Join me on this epic ride as I show you the game-changing impact of my work. It's gonna blow your mind, so buckle up and let's get exploring!</p>
                             <div className={styles.buttonlinkdiv}><Link className={styles.buttonlink} to="/projects">Explore My Projects</Link></div>
                         </div>
                     </div>
@@ -37,20 +37,20 @@ export default function Galleryview(){
                         <div className={styles.lftbox}>
                             <div className={styles.ContactCard}>
                                 <p className={styles.ContactCardinfos}>
-                                    <Link title="Whatsapp" target='_blank'to="https://api.whatsapp.com/send?phone=919500366762&text=Hai%20Diva%20!%20.%20.%20.%F0%9F%98%8D"><BsWhatsapp/></Link>
-                                    <br/>9500366762<br/>Whatsapp
+                                    <Link title="Whatsapp" target='_blank'to="https://api.whatsapp.com/send?phone=919500366762&text=Hai%20Diva%20!%20.%20.%20.%F0%9F%98%8D"><BsWhatsapp/>
+                                    <br/>9500366762<br/>Whatsapp</Link>
                                 </p>
                             </div>
                             <div className={styles.ContactCard}>
                                 <p className={styles.ContactCardinfos}>
-                                    <Link title="Linkedin" target='_blank'to="https://www.linkedin.com/in/divakaran-senthilkumar-78779b248/"><BsLinkedin/></Link>
-                                    <br/>Divakaran SenthilKumar<br/>LinkedIN
+                                    <Link title="Linkedin" target='_blank'to="https://www.linkedin.com/in/divakaran-senthilkumar-78779b248/"><BsLinkedin/>
+                                    <br/>Divakaran SenthilKumar<br/>LinkedIN</Link>
                                 </p>
                             </div>
                         </div>
                         <div className={styles.rytbox}>
-                            <p><h2>&lt;ContactMe/&gt;</h2>
-                            Click now to connect with me and let's start unraveling the fascinating details together. Whether you're curious, have questions, or simply want to explore further, don't hesitate to reach out. Get in touch and let's embark on an unforgettable intellectual adventure!</p>
+                            <h2>&lt;ContactMe/&gt;</h2>
+                            <p>Click now to connect with me and let's start unraveling the fascinating details together. Whether you're curious, have questions, or simply want to explore further, don't hesitate to reach out. Get in touch and let's embark on an unforgettable intellectual adventure!</p>
                             <div className={styles.buttonlinkdiv}><Link className={styles.buttonlink} to="/contactme">GetToch</Link></div>
                         </div>
                 </div>

@@ -51,7 +51,7 @@ const Introductions =()=>{
             <div data-aos="fade-in" className={styles.introduction} >
                 <h3 className={styles.subheading}>My Self</h3><br/>
             <div>
-            <div className={styles.image}></div>
+                <div className={styles.image}></div>
                 <p className={styles.introductioncontent}>{detials.intro}</p>
             </div>
             </div>

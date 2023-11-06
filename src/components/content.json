@@ -1,5 +1,5 @@
 {
-    "intro":"Hello, my name is Divakaran Senthilkumar, and I am a student. I believe that education is the key to unlocking our potential and achieving our dreams. I am passionate about learning and acquiring knowledge, both inside and outside the classroom. I am currently pursuing my academic goals in Computer science and Engineering, and I am committed to working hard, pushing myself out of my comfort zone, and achieving my goals. I believe that through education, I can make a positive impact in the world and contribute to the betterment of society. I am excited to be part of a community of learners and to collaborate with my peers and professors to achieve academic excellence and personal growth. I am determined to make the most of my academic journey and use my knowledge and skills to create positive change in the world.",
+    "intro":"Hello, I'm Divakaran Senthilkumar, a passionate student in Computer Science and Engineering. I firmly believe that education is the key to realizing our dreams and potential. I'm dedicated to pushing my boundaries, both in and out of the classroom, and I'm committed to achieving my academic goals. I'm confident that through education, I can make a positive impact on society. I look forward to being part of a community of learners, collaborating with my peers and professors to excel academically and personally. My goal is to use my knowledge and skills to bring about positive change in the world.",
     "image":"https://i.ibb.co/YbhVmQC/mine.jpg",
     "academic":{
         "sslc":"Government higher secondary school , palapatti, Namakkal(DT),TamilNadu",
@@ -57,14 +57,16 @@
             "id":1,
             "image":"https://i.ibb.co/MNpwtxs/vcapi.jpg",
             "title":"Personal voice assistant",
-            "link":"https://github.com/sdivakaran143/Python_Bot-Python-Voice-Assistant",
+            "livelink":"https://github.com/sdivakaran143/Python_Bot-Python-Voice-Assistant",
+            "repolink":"https://github.com/sdivakaran143/Python_Bot-Python-Voice-Assistant", 
             "description":"Developed a Python-based Personal Voice Assistant enabling Google search functionality and custom command execution.",
             "tech":["https://cdn-icons-png.flaticon.com/512/5968/5968350.png"]
         },{
             "id":2,
             "image":"https://i.ibb.co/vC9LWMh/virtual-resume.png",
             "title":"Virtual resume",
-            "link":"https://sdivakaran143.github.io/Virtual-Resume/",
+            "livelink":"https://sdivakaran143.github.io/Virtual-Resume/",
+            "repolink":"https://github.com/sdivakaran143/Virtual-Resume/", 
             "description":"Developed a virtual portfolio using HTML, CSS, and JavaScript to showcase my design and development skills.Implemented responsive design techniques to ensure optimal user experience across various devices.",
             "tech":["https://cdn-icons-png.flaticon.com/128/1051/1051277.png","https://cdn-icons-png.flaticon.com/128/732/732190.png"]
         },
@@ -72,7 +74,7 @@
             "id":3,
             "image":"https://i.ibb.co/y0ZGVh4/celciusapp.jpg",
             "title":"Celsius Converter Application",
-            "link":"https://github.com/sdivakaran143",
+            "repolink":"https://github.com/sdivakaran143/",
             "description":"Developed a Celsius Converter Android application using Android Studio and dependencies, enabling conversion of Celsius to Fahrenheit, Rankine, and Kelvin.",
             "tech":["https://dealicious-inc.github.io/assets/image/posts/2021-08-23-android-studio-plugin-template/androidstudio.png","https://cdn-icons-png.flaticon.com/512/226/226777.png"]
         },
@@ -80,30 +82,42 @@
             "id":4,
             "image": "https://i.ibb.co/wMqQ37t/ecom.png",
             "title":"Ecommerce product comparison",
-            "link":"https://www.youtube.com/watch?v=I9ZRGtlhwvY",
+            "livelink":"https://www.youtube.com/watch?v=I9ZRGtlhwvY",
+            "repolink":"https://github.com/sdivakaran143/Comparison-of-E-commerce-Products",
             "description":"Developed an Ecommerce product comparison application using JavaScript libraries to compare products from Amazon and Flipkart, demonstrating proficiency in web development and data analysis.",
             "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png","https://i.ibb.co/GTVymgg/expressjs.png","https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png"]
-        },{
-            "id":5,
-            "image":"https://i.ibb.co/kc5mZkk/portfolio.png",
-            "title":"Portfolio",
-            "link":"https://divakaransenthilkumar.onrender.com/",
-            "description":"Developed a responsive personal portfolio using ReactJS to showcase my skills",
-            "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png"]
+            },{
+                "id":5,
+                "image":"https://i.ibb.co/kc5mZkk/portfolio.png",
+                "title":"Portfolio",
+                "livelink":"https://divakaransenthilkumar.onrender.com/",
+                "repolink":"https://github.com/sdivakaran143/Portfolio-React",
+                "description":"Developed a responsive personal portfolio using ReactJS to showcase my skills",
+                "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png"]
         },
         {
             "id":6,
-            "image":"https://i.ibb.co/4V28Fsw/productpreiwew.png",
-            "title":"product preview page",
-            "link":"https://sampleproductpreview.onrender.com/", 
-            "description":"Designed and developed a product preview page using React, showcasing skills in front-end development and UI/UX design.",
+            "image":"https://i.ibb.co/njG72kw/Symposium.png",
+            "title":"Ablaze 2023 (Symposium website)",
+            "livelink":"https://ablaze23.onrender.com/", 
+            "description":"Developed a department symposium website, providing event details and registration information. The website garnered 1350+ visitors, enhancing event outreach and online presence.",
             "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png"]
         },
         {
             "id":7,
+            "image":"https://i.ibb.co/pQ9sxL6/learn-IT.png",
+            "title":"Learn IT (E-learning Platform)",
+            "livelink":"https://divakaranjaamtask.onrender.com/", 
+            "repolink":"https://github.com/sdivakaran143/jaamapp", 
+            "description":"I've developed and demonstrated a subscription module on an online course platform using React.js, Express.js, Firebase, and MongoDB.",
+            "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png","https://i.ibb.co/GTVymgg/expressjs.png","https://th.bing.com/th/id/R.0e23481b805fa66eb9ff0c177ff27030?rik=00LN9yVT3nMAyw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2flogo-mongodb-png-mongodb-1600.png&ehk=YwJU48GqAzZ6V3Zlafc4pyilw%2biV5XBxEO7chpNV3M8%3d&risl=&pid=ImgRaw&r=0","https://www.gstatic.com/devrel-devsite/prod/ve7ce216351f398481fccad3cbbc60c699e78bde8533bfe4daa150955665bb2bf/firebase/images/lockup.svg"]
+        },
+        {
+            "id":8,
             "image":"https://i.ibb.co/xhknczj/Screenshot-380.png",
             "title":"Github Profile Checker",
-            "link":"https://githubprofilechecker.onrender.com/",
+            "livelink":"https://githubprofilechecker.onrender.com/",
+            "repolink":"https://github.com/sdivakaran143/GithubProfileChecker", 
             "description":"Built a ReactJS app that displays a user's Github details using Github's API.",
             "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png","https://dev-to-uploads.s3.amazonaws.com/i/4u07v77746evbyxibmpi.png"]
         }
