@@ -48,6 +48,9 @@
         },{
             "tittle":"Completed \"successfully completed the course CSS - Basics to Adv for front end development\" on Udemy",
             "link":"https://udemy-certificate.s3.amazonaws.com/image/UC-22b18333-b982-4225-9fe3-a481d5d37654.jpg"
+        },{
+            "tittle":"Proficient Python programmer with completed Guvi course, ready to apply skills in real-world projects and explore advanced topics",
+            "link":"https://i.ibb.co/d7G6NmM/Guvi-Certification-68gt13w58-HS31s79m-A.png"
         }
     
 ],
@@ -74,7 +77,6 @@
             "id":3,
             "image":"https://i.ibb.co/y0ZGVh4/celciusapp.jpg",
             "title":"Celsius Converter Application",
-            "repolink":"https://github.com/sdivakaran143/",
             "description":"Developed a Celsius Converter Android application using Android Studio and dependencies, enabling conversion of Celsius to Fahrenheit, Rankine, and Kelvin.",
             "tech":["https://dealicious-inc.github.io/assets/image/posts/2021-08-23-android-studio-plugin-template/androidstudio.png","https://cdn-icons-png.flaticon.com/512/226/226777.png"]
         },
