@@ -1037,10 +1037,9 @@ mobile devices
     width: 80vw;
     margin: 0px;
   }
-  .contact_contents fieldset{
-    margin: 20px 0px;
-    border-radius: 8px;
-    width:80%;
+  .contact_contents form{
+    width: 75%;
+    margin: 20px auto;
   }
   .projecttechimage{
     /* display:grid; */
