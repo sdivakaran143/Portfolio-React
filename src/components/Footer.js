@@ -37,7 +37,6 @@ const NameplateFooter=()=>{
                 <Link className={styles.NamePlateSocialMediaicon} title="Instagram" target='_blank' to="https://www.instagram.com/sdivakaran143/"><BsInstagram/></Link>
                 <Link className={styles.NamePlateSocialMediaicon} title="GitHub"target='_blank' to="https://github.com/sdivakaran143"><BsGithub/></Link>
                 <Link className={styles.NamePlateSocialMediaicon} title="Youtube"target='_blank' to="https://www.youtube.com/@sdivakaran143"><BsYoutube/></Link>                   
-                <Link className={styles.NamePlateSocialMediaicon}title="GitHub"target='_blank' to="https://github.com/sdivakaran143"><BsGithub/></Link>
                 <Link className={styles.NamePlateSocialMediaicon} title="Whatsapp" target='_blank'to="https://api.whatsapp.com/send?phone=919500366762&text=Hai%20Diva%20!%20.%20.%20.%F0%9F%98%8D"><BsWhatsapp/></Link>                   
                 <a className={styles.NamePlateSocialMediaicon} title="mail" href="mailto:divakarancse2020@ksrce.ac.in?bcc=sdivakaran683@gmail.com&subject=For%20Connection%20&body=Hai%20Iam%20%3CYour%20Name%3E!..."><SiMinutemailer/></a>
             </div>
