@@ -60,9 +60,8 @@
             "id":1,
             "image":"https://i.ibb.co/MNpwtxs/vcapi.jpg",
             "title":"Personal voice assistant",
-            "livelink":"https://github.com/sdivakaran143/Python_Bot-Python-Voice-Assistant",
             "repolink":"https://github.com/sdivakaran143/Python_Bot-Python-Voice-Assistant", 
-            "description":"Developed a Python-based Personal Voice Assistant enabling Google search functionality and custom command execution.",
+            "description":"Developed a Python-based Personal Voice Assistant enabling Google search functionality and custom command execution in Local System.",
             "tech":["https://cdn-icons-png.flaticon.com/512/5968/5968350.png"]
         },{
             "id":2,
@@ -88,7 +87,8 @@
             "repolink":"https://github.com/sdivakaran143/Comparison-of-E-commerce-Products",
             "description":"Developed an Ecommerce product comparison application using JavaScript libraries to compare products from Amazon and Flipkart, demonstrating proficiency in web development and data analysis.",
             "tech":["https://cdn-icons-png.flaticon.com/128/875/875209.png","https://i.ibb.co/GTVymgg/expressjs.png","https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png"]
-            },{
+        },
+        {
                 "id":5,
                 "image":"https://i.ibb.co/kc5mZkk/portfolio.png",
                 "title":"Portfolio",
