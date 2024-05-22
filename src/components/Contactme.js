@@ -22,13 +22,13 @@ export default function Contactme() {
             <div className={styles.main_content}>
                 <form ref={form} onSubmit={sendEmail} className={styles.form}>
                         <label>FirstName</label>
-                        <input type="text" className={styles.halfinput} name="user_fname" placeholder="Divakaran" required/>
+                        <input type="text" className={styles.halfinput} name="user_fname" placeholder="Devin" required/>
                         <label>LastName</label>
-                        <input type="text" className={styles.halfinput} name="user_lname" placeholder="Senthilkumar" required/>
+                        <input type="text" className={styles.halfinput} name="user_lname" placeholder="Charles" required/>
                         <label>EmailId</label>
-                        <input type="email" className={styles.fullinput} placeholder="Email id" name="sdivakran683@gmail.com" required/>
+                        <input type="email" className={styles.fullinput} placeholder="Email id" name="abc@gmail.com" required/>
                         <label>ContactNo</label>
-                        <input type="number" className={styles.fullinput} name="user_phone" placeholder="9500366762" required/>
+                        <input type="number" className={styles.fullinput} name="user_phone" placeholder="95XXXXXX62" required/>
                         <label>Message</label>
                         <textarea rows="4" name="message" cols="50" className={[styles.fullinput, styles.largebox].join(' ')} placeholder="Write a message"></textarea>
                         <br />
