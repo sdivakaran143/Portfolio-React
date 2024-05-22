@@ -18,6 +18,13 @@ const Academics=()=>{
         <h3 className={styles.subheading}>Academics</h3>
         <div className={styles.academic}data-aos="flip-left">
             <div className={[styles.academicdetials,styles.acd1].join(" ")}>
+                <p><PiGraduationCapFill/> 2024(Jan) - Current</p>
+                <div className={styles.frame}>
+                    <p>{detials.academic.intershipCompany}</p><br/>
+                    <span>{detials.academic.intershipTittle}</span>
+                </div>
+            </div>
+            <div className={[styles.academicdetials,styles.acd2].join(" ")}>
                 <p><PiGraduationCapFill/> 2020-2024</p>
                 <div className={styles.frame}>
                 <FaUniversity/>
@@ -25,7 +32,7 @@ const Academics=()=>{
                 <span><CgNotes/> {detials.academic.collegepercentage}</span>
                 </div>
             </div>
-            <div className={[styles.academicdetials,styles.acd2].join(" ")}>
+            <div className={[styles.academicdetials,styles.acd3].join(" ")}>
                 <p><MdSchool/> 2020</p>
                 <div className={styles.frame}>
                 <FaSchool/>
@@ -33,8 +40,8 @@ const Academics=()=>{
                 <span><CgNotes/> {detials.academic.hscpercentage}%</span>
                 </div>
             </div>
-            <div className={[styles.academicdetials,styles.acd3].join(" ")}>
-                <p><MdSchool/>2018</p>
+            <div className={[styles.academicdetials,styles.acd1].join(" ")}>
+                <p><MdSchool/> 2018</p>
                 <div className={styles.frame}>
                 <FaSchool/>
                 <p>{detials.academic.sslc}</p><br/>
