@@ -18,8 +18,9 @@ const Academics=()=>{
         <h3 className={styles.subheading}>Academics</h3>
         <div className={styles.academic}data-aos="flip-left">
             <div className={[styles.academicdetials,styles.acd1].join(" ")}>
-                <p><PiGraduationCapFill/> 2024(Jan) - Current</p>
+                <p>2024(Jan) - Present</p> 
                 <div className={styles.frame}>
+                    <FaUniversity/>
                     <p>{detials.academic.intershipCompany}</p><br/>
                     <span>{detials.academic.intershipTittle}</span>
                 </div>
