@@ -32,7 +32,7 @@ const Academics=()=>{
                 <span><CgNotes/> {detials.academic.collegepercentage}</span>
                 </div>
             </div>
-            <div className={[styles.academicdetials,styles.acd3].join(" ")}>
+            <div className={[styles.academicdetials,styles.acd1].join(" ")}>
                 <p><MdSchool/> 2020</p>
                 <div className={styles.frame}>
                 <FaSchool/>
@@ -40,7 +40,7 @@ const Academics=()=>{
                 <span><CgNotes/> {detials.academic.hscpercentage}%</span>
                 </div>
             </div>
-            <div className={[styles.academicdetials,styles.acd1].join(" ")}>
+            <div className={[styles.academicdetials,styles.acd2].join(" ")}>
                 <p><MdSchool/> 2018</p>
                 <div className={styles.frame}>
                 <FaSchool/>
