@@ -412,11 +412,12 @@ nav{
 .thisisblock{
   margin-top:50px;
   background: var(--backshade);
-  height:96vh;
+  height:inherit;
   display: flex;
   flex-direction:column ;
   align-items: center;
   justify-content: center;
+  padding: 20px 0px;
 }
 
 /* -----------------------------------about js ----------------------------------------------- */
