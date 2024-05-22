@@ -231,7 +231,7 @@ padding: 10px;
   min-width: 98%;
   max-width:98%;
   min-height: 5vh;
-  color: var(--black);
+  color:black;
 }
 .responsemessage{
   font-size: 15px;
@@ -1064,7 +1064,6 @@ mobile devices
     padding: 13px;
   }
   .largebox{
-    color:black;
     width: 80vw;
     margin: 0px;
   }
