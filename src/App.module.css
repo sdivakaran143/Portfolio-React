@@ -377,6 +377,35 @@ nav{
   /* transform: translate(31.5em,1.5em); */
 
 }
+
+
+.acd4 > .frame{
+  border: none;
+  /* border-right: 1px solid var(--black);
+  border-bottom: 1px solid var(--black); */
+}
+.acd4{
+  box-shadow: 2.2px 0px 0px 0px var(--black);
+  border: none;
+  grid-column: 1;
+  left: 10px;
+  grid-row: 4;
+}
+.acd4>p{
+  color: var(--white);
+  transform: translate(177%);
+  /* transform: translate(2.3em); */
+  /* transform: translate(31.5em,1.5em); */
+
+}
+.acd4>p{
+  color: white;
+  transform: translate(177%);
+  /* transform: translate(2.3em); */
+  /* transform: translate(31.5em,1.5em); */
+
+}
+
 .acd3{
   grid-row: 3;
 }
